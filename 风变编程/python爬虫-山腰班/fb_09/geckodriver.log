@@ -1,0 +1,25 @@
+1656386853420	geckodriver	INFO	Listening on 127.0.0.1:59225
+1656386853957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\34431\\AppData\\Local\\Temp\\rust_mozprofileTWGEDJ"
+1656386855261	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59226
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\34431\\AppData\\Local\\Temp\\rust_mozprofileTWGEDJ\\search.json.mozlz4", (void 0)))
+1656386856866	Marionette	INFO	Listening on port 59249
+DevTools listening on ws://localhost:59226/devtools/browser/3ea115a4-de69-4acf-800d-cd4f90a6121b
+Read port: 59249
+1656386857002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1656388382842	Marionette	INFO	Stopped listening on port 59249
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\34431\\AppData\\Local\\Temp\\rust_mozprofilekfhjAW"
+1656387131935	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60250
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\34431\\AppData\\Local\\Temp\\rust_mozprofilekfhjAW\\search.json.mozlz4", (void 0)))
+1656387133556	Marionette	INFO	Listening on port 60284
+DevTools listening on ws://localhost:60250/devtools/browser/c13279c4-2572-4ed2-ae43-c889d5db2574
+Read port: 60284
+1656387133614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1656388384031	Marionette	INFO	Stopped listening on port 60284
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

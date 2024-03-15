@@ -1,0 +1,17 @@
+    print('-----第%d局-----' % i)
+    enemy_blood = enemy_blood - player_power
+    player_blood = player_blood - enemy_power
+    print('你发起了攻击，[敌人]剩余血量 %d' % enemy_blood)
+    print('敌人向你发起了攻击，[玩家]剩余血量 %d' % (player_blood))
+    time.sleep(1.5)
+    print('-----第%d局-----' % i)
+    enemy_blood = enemy_blood - player_power
+    player_blood = player_blood - enemy_power
+    if enemy_blood != 0  and  player_blood != 0:
+        print('你发起了攻击，[敌人]剩余血量 %d' % enemy_blood)
+        print('敌人向你发起了攻击，[玩家]剩余血量 %d' % player_blood)
+    elif enemy_blood == 0  and  player_blood != 0:
+        print('敌人死翘翘，你赢了!')
+    elif enemy_blood != 0  and  player_blood == 0:
+        print('敌人赢了!')
+        break
