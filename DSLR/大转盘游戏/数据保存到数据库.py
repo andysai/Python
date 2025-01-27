@@ -21,7 +21,7 @@ if data['status'] == '1':  # 检查状态码是否表示成功
             city_name = city['name']
             full_name = province_name + '-' + city_name
 
-            instrt_db.insert_db(province_name, city_name, full_name)
+            instrt_db.insert_table(province_name, city_name, full_name)
     print("数据插入完成")
 else:
     print("获取数据失败")
