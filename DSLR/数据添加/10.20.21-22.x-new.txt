@@ -1,0 +1,15 @@
+10.20.22.33 天津-windows2019_tianjinAD
+10.20.22.35 天津-windows2019-tj_fileserver
+10.20.22.36 天津-centos7.7_cloudprint
+10.20.22.80 天津-win2008r2-jbxcx
+10.20.21.10 天津-esxi6.5-server10
+10.20.21.11 天津-esxi6.5-node11
+10.20.21.12 天津-esxi6.5-node12
+10.20.21.13 天津-esxi6.5-node13
+10.20.21.14 天津-esxi6.5-node14
+10.20.21.31 天津-esxi6.5-node31
+10.20.21.32 天津-esxi6.5-node32
+10.20.21.33 天津-esxi6.5-node33
+10.20.21.34 天津-esxi6.5-node37
+10.20.21.103 天津-esxi6.5-node103
+10.20.21.252 天津-CONVERTER-node252

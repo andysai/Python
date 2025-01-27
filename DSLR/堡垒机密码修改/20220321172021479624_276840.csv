@@ -1,0 +1,1315 @@
+﻿#主机IP,主机名称,操作系统,主机编码,帐户登录名,帐户密码,协议:端口,Oracle数据库,Oracle登录属性,Oracle连接为,DB2资产列表,主机组名称,备注,主机网络
+10.10.10.10,Fileserver,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows,域",,10.10.10.x
+10.10.10.100,HRwechatInterface,Other Linux,UTF-8,root,root#2015,SSH:22,,,,,"ALL,linux",,10.10.10.x
+10.10.10.100,HRwechatInterface,Other Linux,UTF-8,root,+lrJ$?h3XL,SFTP:22,,,,,"ALL,linux",,10.10.10.x
+10.10.10.11,文件服务器,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.10.10.x
+10.10.10.12,portal,Other Linux,UTF-8,root,5MV|DU#H%z,SSH:22,,,,,"ALL,linux",,10.10.10.x
+10.10.10.12,portal,Other Linux,UTF-8,root,5MV|DU#H%z,SFTP:22,,,,,"ALL,linux",,10.10.10.x
+10.10.10.16,dhh-dhcp,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,ALL,,10.10.10.x
+10.10.10.17,dhcp17,Other Windows,UTF-8,administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.10.10.x
+10.10.10.19,DHCP,Other Windows,UTF-8,dgdslr\administrator,x10i_dslr*.*2013,RDP:3389,,,,,"ALL,windows,域",,10.10.10.x
+10.10.10.22,wlad01,Other Windows,UTF-8,administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.10.10.x
+10.10.10.22,wlad01,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.10.10.x
+10.10.10.23,wlad02,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.10.10.x
+10.10.10.3,同鑫系统,Other Windows,UTF-8,administrator,LdhCTp;l@q,RDP:3389,,,,,"ALL,windows",,10.10.10.x
+10.10.10.8,dgdslr-dc,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows,域",,10.10.10.x
+10.10.10.9,BDC,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows,域",,10.10.10.x
+10.10.10.9,BDC,Other Windows,UTF-8,administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows,域",,10.10.10.x
+10.10.20.10,mysql数据库合集,Other Linux,UTF-8,root,Rx_&Cdig;2,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.10,mysql数据库合集,Other Linux,UTF-8,root,Rx_&Cdig;2,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.10,mysql数据库合集,Other Linux,UTF-8,qywxportal,QywxPortal@2019,MySQL:3306,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.10,CRM,Other Linux,UTF-8,root,root#2018,MySQL:3306,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.10,OTRS,Other Linux,UTF-8,root,root#2018,MySQL:3306,,,,,"ALL,OTRS,linux,数据库",,10.10.20.x
+10.10.20.10,OTRS,Other Linux,UTF-8,otrswxapp,Wxapp!@#456,MySQL:3306,,,,,"ALL,OTRS,linux,数据库",,10.10.20.x
+10.10.20.10,OTRS,Other Linux,UTF-8,qywxportal,QywxPortal@2019,MySQL:3306,,,,,"ALL,OTRS,linux,数据库",,10.10.20.x
+10.10.20.100,HR微信接口数据库,Other Linux,UTF-8,root,Bp3p@F%XEk,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.100,HR微信接口数据库,Other Linux,UTF-8,root,Bp3p@F%XEk,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.100,HR助手(微信企业号),Other,UTF-8,wxqyh,wx#2000,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.101,会员APP数据库,Other Linux,UTF-8,root,usLjg&SXSc,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.101,会员APP数据库,Other Linux,UTF-8,root,usLjg&SXSc,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.101,会员APP,Other,UTF-8,rpms,rpms#2101,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.101,会员APP,Other,UTF-8,xdms,xd#2101,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.101,会员APP,Other,UTF-8,vipapp,vip#2101,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.101,会员APP,Other,UTF-8,xdms_cx,xdms_cx,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.11,电商商品计划主库,Other Linux,UTF-8,root,"""'Z*dU|NBQ",SSH:22,,,,,"ALL,linux,数据库,电商商品计划",,10.10.20.x
+10.10.20.11,电商商品计划主库,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,数据库,电商商品计划",,10.10.20.x
+10.10.20.11,电商商品计划主库,Other Linux,UTF-8,root,"""'Z*dU|NBQ",SFTP:22,,,,,"ALL,linux,数据库,电商商品计划",,10.10.20.x
+10.10.20.111,Vcenter,Other Windows,UTF-8,administrator,_y_s7jqryJ,RDP:3389,,,,,"ALL,Vcenter,windows,数据库",,10.10.20.x
+10.10.20.12,电商商品计划备库,Other Linux,UTF-8,root,Tb$lsxnvwC,SSH:22,,,,,"ALL,linux,数据库,电商商品计划",,10.10.20.x
+10.10.20.12,电商商品计划备库,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,数据库,电商商品计划",,10.10.20.x
+10.10.20.12,电商商品计划备库,Other Linux,UTF-8,root,Tb$lsxnvwC,SFTP:22,,,,,"ALL,linux,数据库,电商商品计划",,10.10.20.x
+10.10.20.15,odi-db,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.15,odi-db,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.17,欧迪芬DSP-DB,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.17,欧迪芬DSP-DB,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.20,同富WMS-B2B主库,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.21,同富WMS-B2B备库,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.21,同富WMS-B2B备库,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.21,福明仓WMS奥特仓,Other,UTF-8,SYS,sys_fm020,Oracle:1521,SCPRD,SERVICENAME,SYSDBA,,"ALL,数据库,物流WMS",,10.10.20.x
+10.10.20.222,OMS从库,Other Linux,UTF-8,root,hKzvUs|l^e,SSH:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.222,OMS从库,Other Linux,UTF-8,root,hKzvUs|l^e,SFTP:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.222,oms,Other,UTF-8,SYS,sys123,Oracle:1521,dslrprd5,SERVICENAME,SYSDBA,,"ALL,总部OMS,数据库",,10.10.20.x
+10.10.20.25,同鑫消费-db,Other Windows,UTF-8,administrator,OWPLL;?nfB,RDP:3389,,,,,"ALL,windows,数据库",,10.10.20.x
+10.10.20.25,同鑫ERP,Other,UTF-8,sa,erpsa#2015,SQL Server:1433,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.250,B2B备机,Other Linux,UTF-8,root,wDyjRUZDfB,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.26,欧迪芬三云DB,Other,UTF-8,,,,,,,,"ALL,linux",,10.10.20.x
+10.10.20.27,上海WMS-B2B数据库,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.27,上海WMS-B2B数据库,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.27,上海仓WMS,Other,UTF-8,SYS,sys_odf027,Oracle:1521,SCPRD,SERVICENAME,SYSDBA,,"ALL,数据库,物流WMS",,10.10.20.x
+10.10.20.28,订货会_register-db02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.10.20.x
+10.10.20.31,OMS,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.31,OMS,Other Linux,UTF-8,oracle,oracle#2019,SSH:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.31,OMS,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.31,OMS,Other Linux,UTF-8,oracle,oracle#2019,SFTP:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.32,OMS,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.32,OMS,Other Linux,UTF-8,oracle,oracle#2019,SSH:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.32,OMS,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.32,OMS,Other Linux,UTF-8,oracle,oracle#2019,SFTP:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.35,订货会_register-db,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.10.20.x
+10.10.20.36,新直营POS-DB主机,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.36,新直营POS-DB主机,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.36,新直营POS-DB主机,Other Linux,UTF-8,new_pos,new_pos,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.36,新直营POS-DB主机,Other Linux,UTF-8,intermediate_db,intermediate_db,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.36,新直营POS-DB主机,Other Linux,UTF-8,fwlcx,fwl#2017,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.42,玉泉WMS-B2C主库&BIAPP主库,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.42,玉泉WMS-B2C主库&BIAPP主库,Other Linux,UTF-8,SYS,Sys#2021,Oracle:1521,SCPRD,SERVICENAME,SYSDBA,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.42,玉泉WMS-B2C主库&BIAPP主库,Other Linux,UTF-8,wmwhse1,WareHouse1,Oracle:1521,scprd,SERVICENAME,Normal,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.42,玉泉WMS-B2C主库&BIAPP主库,Other Linux,UTF-8,wmwhse7,WareHouse7,Oracle:1521,scprd,SERVICENAME,Normal,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.42,BI数据库,Other,UTF-8,SYS,Sys#2021,Oracle:1521,biapp,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.20.x
+10.10.20.42,BI数据库,Other,UTF-8,cogqpms,cog#qpms05,Oracle:1521,BIAPP,SERVICENAME,Normal,,"ALL,数据库",,10.10.20.x
+10.10.20.42,BI数据库,Other,UTF-8,xdms,xdms#102,Oracle:1521,biapp,SERVICENAME,Normal,,"ALL,数据库",,10.10.20.x
+10.10.20.43,会员APP数据库,Other Linux,UTF-8,root,qD&qqJ&Wjl,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.43,会员APP数据库,Other Linux,UTF-8,root,qD&qqJ&Wjl,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.43,会员APP正式库,Other,UTF-8,SYS,sys#biapp1,Oracle:1521,biapp1,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.20.x
+10.10.20.5,玉泉WMS-B2C主库&BIAPP库,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.5,玉泉WMS-B2C主库&BIAPP库,Other Linux,UTF-8,oracle,Oracle#2021,SSH:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.5,玉泉WMS-B2C主库&BIAPP库,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.5,玉泉WMS-B2C主库&BIAPP库,Other Linux,UTF-8,oracle,Oracle#2021,SFTP:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.50,直营POS数据库,Other Linux,UTF-8,root,uz@LL8TOdh,SSH:22,,,,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.50,直营POS数据库,Other Linux,UTF-8,root,uz@LL8TOdh,SFTP:22,,,,,"ALL,linux,数据库,直营POS",,10.10.20.x
+10.10.20.51,欧迪芬POS、直营辅料数据库,Other Linux,UTF-8,root,B83QGtdAW0,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.51,欧迪芬POS、直营辅料数据库,Other Linux,UTF-8,root,B83QGtdAW0,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.51,直营辅料、欧迪芬POS,Other,UTF-8,SYS,sys_prd1,Oracle:1521,dslrprd1,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.20.x
+10.10.20.54,欧迪芬POS、直营辅料数据库,Other Linux,UTF-8,root,vMejbsm^u@,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.54,欧迪芬POS、直营辅料数据库,Other Linux,UTF-8,root,vMejbsm^u@,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.54,直营辅料、欧迪芬POS,Other,UTF-8,SYS,sys_prd1,Oracle:1521,dslrprd1,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,root,Root#2021,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,baison,baison123,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,fmds_read,dslr@2019,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,e3_cx,cx2019e3,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.55,E3,Other Linux,UTF-8,e3_wlcx,wlcx2020,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.56,E3,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.56,E3,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,数据库,电商E3",,10.10.20.x
+10.10.20.6,福民wms备库,Other Linux,UTF-8,root,QR=iHeNqjK,SSH:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.6,福民wms备库,Other Linux,UTF-8,root,QR=iHeNqjK,SFTP:22,,,,,"ALL,linux,数据库,物流WMS",,10.10.20.x
+10.10.20.6,福明仓WMS,Other,UTF-8,SYS,sys_fm020,Oracle:1521,SCPRDBK,SERVICENAME,SYSDBA,,"ALL,数据库,物流WMS",,10.10.20.x
+10.10.20.61,欧迪芬POS、直营辅料数据库,Other,UTF-8,sms_zyplugin,sms_plugin2008,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.61,欧迪芬POS、直营辅料数据库,Other,UTF-8,max_zy,maxzy$601,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.63,ILOG数据库,Other Linux,UTF-8,root,$YHrpcu19E,SSH:22,,,,,"ALL,ILOG,linux,数据库",,10.10.20.x
+10.10.20.63,ILOG数据库,Other Linux,UTF-8,root,$YHrpcu19E,SFTP:22,,,,,"ALL,ILOG,linux,数据库",,10.10.20.x
+10.10.20.63,ILOG数据库,Other Linux,UTF-8,roster,ros$2008,Oracle:1521,dslrprd3,SERVICENAME,Normal,,"ALL,ILOG,linux,数据库",,10.10.20.x
+10.10.20.63,ilog,Other,UTF-8,SYS,sys_prd3,Oracle:1521,dslrprd3,SERVICENAME,SYSDBA,,"ALL,ILOG,数据库",,10.10.20.x
+10.10.20.64,电商POS数据库,Other Linux,UTF-8,root,KXy#CP9aLn,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.64,电商POS数据库,Other Linux,UTF-8,root,KXy#CP9aLn,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.65,DSP从库,Other,UTF-8,interfacepos,interfacepos,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.10.20.7,tms数据库,Other Linux,UTF-8,root,ZUD&mSckvN,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.7,tms数据库,Other Linux,UTF-8,root,ZUD&mSckvN,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.10.20.7,TMS,Other,UTF-8,SYS,sys123,Oracle:1521,dslrprd5,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.20.x
+10.10.20.71,物流OMSDB,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.20.x
+10.10.20.9,B2B归档库,Other Linux,UTF-8,root,root#2015,SSH:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.20.9,B2B归档库,Other Linux,UTF-8,root,root#2015,SFTP:22,,,,,"ALL,linux,总部OMS,数据库",,10.10.20.x
+10.10.250.11,女人心接口库,Other Linux,UTF-8,root,order#2012,SSH:22,,,,,"ALL,linux,数据库",,10.10.250.x
+10.10.250.11,女人心接口库,Other Linux,UTF-8,root,order#2012,SFTP:22,,,,,"ALL,linux,数据库",,10.10.250.x
+10.10.250.11,女人心接口库,Other Linux,UTF-8,SYS,sys123,Oracle:1521,order1,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.10.250.x
+10.10.250.125,zabbix,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.10.250.x
+10.10.250.125,zabbix,Other Linux,UTF-8,dslr,dslr#2020,SSH:22,,,,,"ALL,linux",,10.10.250.x
+10.10.250.125,zabbix,Other Linux,UTF-8,oracle,123,SSH:22,,,,,"ALL,linux",,10.10.250.x
+10.10.250.125,zabbix,Other Linux,UTF-8,aaa,aaa,FTP:21,,,,,"ALL,linux",,10.10.250.x
+10.10.250.125,zabbix,Other Linux,UTF-8,cmdb,cmdb,Oracle:1521,orcl,SERVICENAME,Normal,,"ALL,linux",,10.10.250.x
+10.10.250.25,同鑫系统,Other,UTF-8,,,,,,,,"ALL,windows",,10.10.250.x
+10.10.250.4,OA测试,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.10.250.x
+10.10.250.4,OA测试,CentOS,UTF-8,root,dslr#2020,SFTP:22,,,,,ALL,,10.10.250.x
+10.10.250.5,杨总零售终端,Windows 10,UTF-8,yanghongzhong,Dslr#2020,RDP:3389,,,,,ALL,,Default Network
+10.10.250.71,玉泉WMS-B2C,Other Linux,UTF-8,root,rDK?#oapx6,SSH:22,,,,,"ALL,linux",,10.10.250.x
+10.10.250.72,infor_wms_interface_qas,Other Windows,UTF-8,administrator,oms2014,RDP:3389,,,,,"ALL,windows",,10.10.250.x
+10.10.250.9,物流监控主机,Other Windows,UTF-8,administrator,Dslr#2021,SFTP:22,,,,,"ALL,windows",,10.10.250.x
+10.10.250.99,OMS测试,Other Windows,UTF-8,administrator,DhzjP5GDPXSzl9HTxNspmA,RDP:3389,,,,,"ALL,windows",,10.10.250.x
+10.10.30.100,max_web01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.100,max_web01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.101,max_zy_app01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.101,max_zy_app01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.102,sms_prd_batch,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.102,sms_prd_batch,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.103,sms_prd_batch_jm,Other Linux,UTF-8,root,Hgz|77MN%y,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.103,sms_prd_batch_jm,Other Linux,UTF-8,root,Hgz|77MN%y,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.104,RPA,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.105,max_nojoin_app02,Other Linux,UTF-8,root,cZgi**grGz,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.105,max_nojoin_app02,Other Linux,UTF-8,root,cZgi**grGz,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.106,eHR_inter,Other Linux,UTF-8,root,!-n#CI\#&3,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.106,eHR_inter,Other Linux,UTF-8,root,!-n#CI\#&3,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.106,eHR_inter,Other Linux,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,linux",,10.10.30.x
+10.10.30.107,sms_was_prd01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.107,sms_was_prd01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.108,sms_was_prd02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.108,sms_was_prd02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.109,COMS-posbatch,Other Linux,UTF-8,root,"^3YLm=0,R,",SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.109,COMS-posbatch,Other Linux,UTF-8,root,"^3YLm=0,R,",SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.110,max_web02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.110,max_web02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.111,Ordering_prod_app01,Other Linux,UTF-8,root,T8awp7rk%#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.111,Ordering_prod_app01,Other Linux,UTF-8,root,T8awp7rk%#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.112,Ordering_prod_app02,Other Linux,UTF-8,root,"rc6=jb,,vb",SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.112,Ordering_prod_app02,Other Linux,UTF-8,root,"rc6=jb,,vb",SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.116,玉泉WMS-B2C-RF主机,Other Linux,UTF-8,root,wms_rf*2014,SSH:22,,,,,"ALL,linux",,10.90.22.x
+10.10.30.117,COMS-appserver01,Other Linux,UTF-8,root,MXAzKsxiD8,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.117,COMS-appserver01,Other Linux,UTF-8,root,MXAzKsxiD8,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.117,玉泉WMS-B2C打印报表,Other Windows,UTF-8,administrator,dslr#2017,RDP:3389,,,,,"ALL,windows",,10.90.22.x
+10.10.30.118,COMS-appserver02,Other Linux,UTF-8,root,"H&,Ou_NeQ6",SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.118,COMS-appserver02,Other Linux,UTF-8,root,"H&,Ou_NeQ6",SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.118,COMS-appserver02,Other Linux,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,linux",,10.10.30.x
+10.10.30.123,欧迪芬O2O-loadbalance,Other Linux,UTF-8,root,K75&X\Ac5y,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.124,10.10.30.124,Other,UTF-8,,,,,,,,ALL,,10.10.30.x
+10.10.30.125,dc_portal01,Other Linux,UTF-8,root,d6W@^Td@jJ,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.125,dc_portal01,Other Linux,UTF-8,root,d6W@^Td@jJ,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.126,AOC_导数,Other Windows,UTF-8,administrator,riUq=}]7S{,RDP:3389,,,,,"ALL,AOC,windows",,10.10.30.x
+10.10.30.127,Cognos,Other Linux,UTF-8,root,&Dv-BMRo9q,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.127,Cognos,Other Linux,UTF-8,root,&Dv-BMRo9q,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.128,Cognos,Other Linux,UTF-8,root,;@yjy~0-NQ,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.128,Cognos,Other Linux,UTF-8,root,;@yjy~0-NQ,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.129,玉泉B2C-WMS-RF02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,windows",,10.10.30.x
+10.10.30.131,cognos_was_gateway_prd,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.131,cognos_was_gateway_prd,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.132,cognos_was_prd01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.132,cognos_was_prd01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.133,cognos_was_prd02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.133,cognos_was_prd02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.134,ZY-COMS-DSP,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.134,ZY-COMS-DSP,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.136,franchisee-RBM-httpd,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.136,franchisee-RBM-httpd,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.139,O2O_redis,Other Linux,UTF-8,root,PAHJ@urxT|,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.139,O2O_redis,Other Linux,UTF-8,root,PAHJ@urxT|,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.14,vip-app,Other Windows,UTF-8,administrator,k8ZSTQWvEU,RDP:3389,,,,,"ALL,windows,会员APP",,10.10.30.x
+10.10.30.14,vip-app,Other Windows,UTF-8,dslr,dslr#2019,RDP:3389,,,,,"ALL,windows,会员APP",,10.10.30.x
+10.10.30.140,O2O_mq,Other Linux,UTF-8,root,5XNt+#lbw#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.140,O2O_mq,Other Linux,UTF-8,root,5XNt+#lbw#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.144,O2O_APP1,Other Linux,UTF-8,root,_Z|&^JAQt5,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.144,O2O_APP1,Other Linux,UTF-8,root,_Z|&^JAQt5,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.145,O2O_APP2,Other Linux,UTF-8,root,Ni|y1WSX8B,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.145,O2O_APP2,Other Linux,UTF-8,root,Ni|y1WSX8B,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.146,O2O_load-balance,Other Linux,UTF-8,root,K75&X\Ac5y,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.146,O2O_load-balance,Other Linux,UTF-8,root,K75&X\Ac5y,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.147,ecom-RBM-cognos,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.147,ecom-RBM-cognos,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.148,franchisee-RBM-cognos,Other Linux,UTF-8,root,bYni;!d9#`,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.148,franchisee-RBM-cognos,Other Linux,UTF-8,root,bYni;!d9#`,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.149,franchisee-RBM-cognos,Other Linux,UTF-8,root,|YtTA&FC9/,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.149,franchisee-RBM-cognos,Other Linux,UTF-8,root,|YtTA&FC9/,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.150,was,Other Linux,UTF-8,root,"6c,P_h#cxq",SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.150,was,Other Linux,UTF-8,root,"6c,P_h#cxq",SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.151,was,Other Linux,UTF-8,root,lVTXe;7fpq,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.151,was,Other Linux,UTF-8,root,lVTXe;7fpq,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.152,was,Other Linux,UTF-8,root,tZip-zJXJQ,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.152,was,Other Linux,UTF-8,root,tZip-zJXJQ,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.153,was,Other Linux,UTF-8,root,LpvN4b@Mip,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.153,was,Other Linux,UTF-8,root,LpvN4b@Mip,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.154,was,Other Linux,UTF-8,root,U6Xo2Om;1&,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.154,was,Other Linux,UTF-8,root,U6Xo2Om;1&,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.155,max_zy_batch01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.155,max_zy_batch01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.156,max_zy_batch02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.156,max_zy_batch02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.157,MQ-server03,Other Windows,UTF-8,administrator,/fw;!WfJ_m,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.158,同富WMS-B2B报表、福民WMS-B2B报表,Other Windows,UTF-8,administrator,4Oby[rcVIM,RDP:3389,,,,,"ALL,windows,物流WMS",,10.10.30.x
+10.10.30.159,apache_load_balance,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.159,apache_load_balance,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.161,监控报警系统,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.165,fmwms-form-search,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.165,fmwms-form-search,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.166,odi-b2c-app01,Other Linux,UTF-8,root,M%WGI3V\eJ,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.166,odi-b2c-app01,Other Linux,UTF-8,root,M%WGI3V\eJ,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.167,odi-b2c-app02,Other Linux,UTF-8,root,"3.7xhmc""'p",SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.167,odi-b2c-app02,Other Linux,UTF-8,root,"3.7xhmc""'p",SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.168,cognos_was01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.168,cognos_was01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.169,cognos_was02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.169,cognos_was02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.170,玉泉WMS-FH外挂、云仓数据同步12C服务器,Other Windows,UTF-8,administrator,Y<|t/uacka,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.171,oms-mq,Other Windows,UTF-8,administrator,,RDP:3389,,,,,"ALL,windows,总部OMS",,10.10.30.x
+10.10.30.172,E3接口BAP主机,Other Windows,UTF-8,administrator,$*l`6O0bjR,RDP:3389,,,,,"ALL,windows,电商E3",,10.10.30.x
+10.10.30.172,E3接口BAP主机,Other Windows,UTF-8,zhangxiaoxi,6S^s^;=#*N,RDP:3389,,,,,"ALL,windows,电商E3",,10.10.30.x
+10.10.30.172,E3接口BAP主机,Other Windows,UTF-8,dslr,nimda@123,RDP:3389,,,,,"ALL,windows,电商E3",,10.10.30.x
+10.10.30.176,BOS_E-order,Other Windows,UTF-8,administrator,u^F<#/zTSh,RDP:3389,,,,,"ALL,windows,自在时光伯俊系统",,10.10.30.x
+10.10.30.180,安恒DBAPP,Other Linux,UTF-8,root,cDv8%yLKf$,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.180,安恒DBAPP,Other Linux,UTF-8,root,cDv8%yLKf$,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.181,电商B2B,Other Linux,UTF-8,root,"cG~\u,vE$7",SSH:22,,,,,"ALL,linux,电商B2B",,10.10.30.x
+10.10.30.181,电商B2B,Other Linux,UTF-8,root,"cG~\u,vE$7",SFTP:22,,,,,"ALL,linux,电商B2B",,10.10.30.x
+10.10.30.182,电商B2B,Other Linux,UTF-8,root,*78@'X_rK_,SSH:22,,,,,"ALL,linux,电商B2B",,10.10.30.x
+10.10.30.182,电商B2B,Other Linux,UTF-8,root,*78@'X_rK_,SFTP:22,,,,,"ALL,linux,电商B2B",,10.10.30.x
+10.10.30.183,电商B2B,Other Linux,UTF-8,root,N.:=C!joVl,SSH:22,,,,,"ALL,linux,电商B2B",,10.10.30.x
+10.10.30.183,电商B2B,Other Linux,UTF-8,root,N.:=C!joVl,SFTP:22,,,,,"ALL,linux,电商B2B",,10.10.30.x
+10.10.30.185,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.185,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.186,OMS,Other Linux,UTF-8,root,k@6A!B'bC;,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.186,OMS,Other Linux,UTF-8,root,k@6A!B'bC;,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.187,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.187,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.188,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.188,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.189,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.189,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.190,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.190,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.191,OMS,Other Linux,UTF-8,root,k@6A!B'bC;,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.191,OMS,Other Linux,UTF-8,root,k@6A!B'bC;,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.192,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.192,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.193,OMS,Other Linux,UTF-8,root,k@6A!B'bC;,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.193,OMS,Other Linux,UTF-8,root,k@6A!B'bC;,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.194,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.194,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.195,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.195,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.196,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.196,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.197,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.197,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.198,was,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.198,was,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.199,was,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.199,was,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.20,testdb_withDS800_F20_1_2_RAW,CentOS,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.20,testdb_withDS800_F20_1_2_RAW,CentOS,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.200,建行接口-SAP-damo,Other Windows,UTF-8,administrator,SAP-damo@200,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.21,帆软-APP01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,windows",,10.10.30.x
+10.10.30.21,帆软-APP01,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,windows",,10.10.30.x
+10.10.30.211,TMS_interface,Other Windows,UTF-8,administrator,^@LR/M(O40,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.212,WMS,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows,物流WMS",,10.10.30.x
+10.10.30.212,WMS,Other Windows,UTF-8,wuliu,Wliu#2019,RDP:3389,,,,,"ALL,windows,物流WMS",,10.10.30.x
+10.10.30.214,SAPHR02,IBM AIX,UTF-8,root,ClOrvLs!Rg,SSH:22,,,,,ALL,,10.10.30.x
+10.10.30.217,上海WMS-B2B应用,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.217,上海WMS-B2B应用,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.218,欧迪芬wms,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.218,欧迪芬wms,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.219,欧迪芬wms,Other Windows,UTF-8,administrator,4i7ypB(52o,RDP:3389,,,,,"ALL,windows,物流WMS",,10.10.30.x
+10.10.30.220,odiSMSDMpos,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.220,odiSMSDMpos,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.221,odiSMSDMpos,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.221,odiSMSDMpos,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.222,odiSMSDMpos,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.222,odiSMSDMpos,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.224,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.224,OMS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,总部OMS",,10.10.30.x
+10.10.30.228,FreeBI,Other Linux,UTF-8,root,@VE4WUi@ii,SSH:22,,,,,"ALL,FreeBI,linux",,10.10.30.x
+10.10.30.228,FreeBI,Other Linux,UTF-8,root,@VE4WUi@ii,SFTP:22,,,,,"ALL,FreeBI,linux",,10.10.30.x
+10.10.30.229,FreeBI,Other Linux,UTF-8,root,"f~ii1Pee,:",SSH:22,,,,,"ALL,FreeBI,linux",,10.10.30.x
+10.10.30.229,FreeBI,Other Linux,UTF-8,root,"f~ii1Pee,:",SFTP:22,,,,,"ALL,FreeBI,linux",,10.10.30.x
+10.10.30.23,BIPI,Other Linux,UTF-8,root,gm%UVA@O#z,SSH:22,,,,,"ALL,SAP-PI,linux",,10.10.30.x
+10.10.30.230,CLM,Other Windows,UTF-8,administrator,Xr1R$n22Dh,RDP:3389,,,,,"ALL,CLM,windows",,10.10.30.x
+10.10.30.230,CLM,Other Windows,UTF-8,lijiawen,dslr#30.230,RDP:3389,,,,,"ALL,CLM,windows",,10.10.30.x
+10.10.30.231,CLM,Other Windows,UTF-8,administrator,?)gsZ)b<?b,RDP:3389,,,,,"ALL,CLM,windows",,10.10.30.x
+10.10.30.231,CLM,Other Windows,UTF-8,lijiawen,dslr#30.230,RDP:3389,,,,,"ALL,CLM,windows",,10.10.30.x
+10.10.30.232,CLM,Other Linux,UTF-8,root,\tza8CN2r9,SSH:22,,,,,"ALL,CLM,linux",,10.10.30.x
+10.10.30.232,CLM,Other Linux,UTF-8,root,\tza8CN2r9,SFTP:22,,,,,"ALL,CLM,linux",,10.10.30.x
+10.10.30.233,CLM,Other Linux,UTF-8,root,ow-nSG2Pjv,SSH:22,,,,,"ALL,CLM,linux",,10.10.30.x
+10.10.30.233,CLM,Other Linux,UTF-8,root,ow-nSG2Pjv,SFTP:22,,,,,"ALL,CLM,linux",,10.10.30.x
+10.10.30.234,FreeBI,Other Linux,UTF-8,root,IOROH7'nod,SSH:22,,,,,"ALL,FreeBI,linux",,10.10.30.x
+10.10.30.234,FreeBI,Other Linux,UTF-8,root,IOROH7'nod,SFTP:22,,,,,"ALL,FreeBI,linux",,10.10.30.x
+10.10.30.235,直营POS,Other Linux,UTF-8,root,w8Ve%v;lj-,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.235,直营POS,Other Linux,UTF-8,root,w8Ve%v;lj-,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.236,360管理,Other Windows,UTF-8,administrator,6I[53?X+DP,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.237,玉泉WMS-B2C应用备机,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.237,玉泉WMS-B2C应用备机,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.239,福民BI,Other Windows,UTF-8,administrator,"vWY4N|,V!/",RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.24,物流OMS应用,Other Windows,UTF-8,administrator,v*0Sq2mIAi,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.243,公告发布,Other Windows,UTF-8,administrator,TL7v2G=BWQ,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.245,GIC微会员,Other Windows,UTF-8,administrator,{f)qlrGNRE,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.247,物流钉钉接口,Other Windows,UTF-8,administrator,AIh$kqjd)[,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.248,日志服务器,Other Linux,UTF-8,root,$1Bw3_`%2x,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.248,日志服务器,Other Linux,UTF-8,root,$1Bw3_`%2x,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.25,帆软-APP02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.25,帆软-APP02,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.251,电商防伪追溯,Other Linux,UTF-8,root,HXl4Uk-vd3,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.251,电商防伪追溯,Other Linux,UTF-8,root,HXl4Uk-vd3,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.254,WMS,CentOS,UTF-8,root,Dslr#2021,SSH:22,,,,,ALL,,10.10.30.x
+10.10.30.28,webservice,Other Windows,UTF-8,administrator,hgXi7$)IU6,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.3,images-server,Other Linux,UTF-8,root,hm7WI\e\2c,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.3,images-server,Other Linux,UTF-8,root,hm7WI\e\2c,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.35,物流打印报表,Other Windows,UTF-8,administrator,dswl#p1RBA6gW,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.43,mpsr,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.44,帆软redis,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.45,Datastage开发,CentOS,UTF-8,root,Dslr#2021,SSH:22,,,,,ALL,,10.10.30.x
+10.10.30.47,MOIA,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.47,MOIA,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.48,wms_forward,Other Linux,UTF-8,root,\#V1Gw-Ms@,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.48,wms_forward,Other Linux,UTF-8,root,\#V1Gw-Ms@,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.49,会员数据清理,Other Windows,UTF-8,vip,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.49,会员数据清理,Other Windows,UTF-8,vip2,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.49,会员数据清理,Other Windows,UTF-8,vip3,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.49,会员数据清理,Other Windows,UTF-8,vip4,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.49,会员数据清理,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.10.30.x
+10.10.30.52,玉泉WMS-B2C应用1,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.52,玉泉WMS-B2C应用1,Other Linux,UTF-8,wuliu,wuliu#2020,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.52,玉泉WMS-B2C应用1,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.52,玉泉WMS-B2C应用1,Other Linux,UTF-8,wuliu,wuliu#2020,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.54,玉泉WMS_B2C-E3接口服务器,Other Windows,UTF-8,administrator,"""Gl_V\'v0=",RDP:3389,,,,,"ALL,windows,物流WMS",,10.10.30.x
+10.10.30.55,同富WMS-B2B应用,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.55,同富WMS-B2B应用,Other Linux,UTF-8,wuliu,dslr#2019,SSH:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.55,同富WMS-B2B应用,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.55,同富WMS-B2B应用,Other Linux,UTF-8,wuliu,dslr#2019,SFTP:22,,,,,"ALL,linux,物流WMS",,10.10.30.x
+10.10.30.56,福民WMS-B2B应用,Other Windows,UTF-8,administrator,":""GjSf:f=R",RDP:3389,,,,,"ALL,windows,物流WMS",,10.10.30.x
+10.10.30.57,DataStage,Other Linux,UTF-8,root,c!+1o9P1NV,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.57,DataStage,Other Linux,UTF-8,root,c!+1o9P1NV,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.58,DataStage,Other Windows,UTF-8,administrator,{<?1AI=lmA,RDP:3389,,,,,ALL,,10.10.30.x
+10.10.30.60,was_cluster01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.60,was_cluster01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.61,was_cluster02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.61,was_cluster02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.62,tableau开发,Windows 7,UTF-8,administrator,dslr#2021,RDP:3389,,,,,ALL,,10.10.30.x
+10.10.30.63,COMS-posbatch,Other Linux,UTF-8,root,R$uM1\0LBC,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.63,COMS-posbatch,Other Linux,UTF-8,root,R$uM1\0LBC,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.64,欧迪芬POS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.64,欧迪芬POS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.65,BOS_WEB01,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows,自在时光伯俊系统",,10.10.30.x
+10.10.30.69,微盟O2O_loadbalance,CentOS,UTF-8,root,K75&X\Ac5y,SSH:22,,,,,ALL,,10.10.30.x
+10.10.30.7,物流CRM,Other Linux,UTF-8,root,Crb3y`tU:z,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.7,物流CRM,Other Linux,UTF-8,root,Crb3y`tU:z,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.70,O2O-微盟_mq,Other Linux,UTF-8,root,5XNt+#lbw#,SSH:22,,,,,"ALL,O2O-微盟,linux",,10.10.30.x
+10.10.30.71,O2O-微盟_redis,Other Linux,UTF-8,root,PAHJ@urxT|,SSH:22,,,,,"ALL,O2O-微盟,linux",,10.10.30.x
+10.10.30.72,b2b_prd_web02,Other Linux,UTF-8,root,"uqc4;""J$`=",SSH:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.72,b2b_prd_web02,Other Linux,UTF-8,root,"uqc4;""J$`=",SFTP:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.73,b2b_prd_app01,Other Linux,UTF-8,root,RnEaM23d9l,SSH:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.73,b2b_prd_app01,Other Linux,UTF-8,root,RnEaM23d9l,SFTP:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.74,b2b_prd_app02,Other Linux,UTF-8,root,!t?VCU.e=g,SSH:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.74,b2b_prd_app02,Other Linux,UTF-8,root,!t?VCU.e=g,SFTP:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.75,b2b_prd_app03,Other Linux,UTF-8,root,Sk+MRJ;_36,SSH:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.75,b2b_prd_app03,Other Linux,UTF-8,root,Sk+MRJ;_36,SFTP:22,,,,,"ALL,linux,总部B2B",,10.10.30.x
+10.10.30.77,max_app01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.77,max_app01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.78,max_app02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.78,max_app02,Other Linux,UTF-8,cosmoadmin,&-tIdcH**p,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.78,max_app02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.81,IHS_7_PRD01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.81,IHS_7_PRD01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.82,IHS_7_PRD02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.82,IHS_7_PRD02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.83,WAS_7_PRD01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.83,WAS_7_PRD01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.84,WAS_7_PRD02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.84,WAS_7_PRD02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.85,原HR辅助,CentOS,UTF-8,root,Dslr#2021,SSH:22,,,,,ALL,,10.10.30.x
+10.10.30.93,欧迪芬O2O-mq,Other Linux,UTF-8,root,5XNt+#lbw#,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.30.99,欧迪芬O2O-redis,Other Linux,UTF-8,root,PAHJ@urxT|,SSH:22,,,,,"ALL,linux",,10.10.30.x
+10.10.31.35,COMS,Other Linux,UTF-8,root,3^'@UxO?-v,SSH:22,,,,,"ALL,linux",,10.10.31.x
+10.10.31.35,COMS,Other Linux,UTF-8,root,3^'@UxO?-v,SFTP:22,,,,,"ALL,linux",,10.10.31.x
+10.10.31.45,COMS_flash-builder,Other Windows,UTF-8,administrator,#=Vl9!0aPR,RDP:3389,,,,,"ALL,windows",,10.10.31.x
+10.10.31.64,常用系统链接,CentOS,UTF-8,root,Dslr#2021,SSH:22,,,,,ALL,,10.10.31.x
+10.10.40.103,NBU,Other Windows,UTF-8,administrator,Dslr***123,RDP:3389,,,,,"ALL,windows,备份系统-NBU",,10.10.40.x
+10.10.40.103,NBU,Other Windows,UTF-8,nbwebsvc,1U*s7lQ#,RDP:3389,,,,,"ALL,windows,备份系统-NBU",,10.10.40.x
+10.10.40.105,nbu备用网络,Other Windows,UTF-8,administrator,Dslr***123,RDP:3389,,,,,"ALL,windows",,10.10.40.x
+10.10.40.115,vm115,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.x
+10.10.40.116,vm116,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.117,vm117,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.118,vm118,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.119,vm119,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.120,vm120,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.121,vm121,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.122,vm122,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.123,vm123,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.124,vm124,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.125,vm125,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.126,vm126,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.127,vm127,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.15,vm15,Other Linux,UTF-8,root,dslr_vm#root$40.15,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.16,vm16,Other Linux,UTF-8,root,dslr_vm#root$40.16,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.17,vm17,Other Linux,UTF-8,root,dslr_vm#root$40.17,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.18,vm18,Other Linux,UTF-8,root,dslr_vm#root$40.18,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.19,vm19,Other Linux,UTF-8,root,dslr_vm#root$40.19,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.2,TSM,Other Linux,UTF-8,root,2=MLR5FcW^,SSH:22,,,,,"ALL,linux",,10.10.40.x
+10.10.40.2,TSM,Other Linux,UTF-8,root,2=MLR5FcW^,SFTP:22,,,,,"ALL,linux",,10.10.40.x
+10.10.40.21,vm21,Other Linux,UTF-8,root,DSLR#vmware@40.21,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.22,vm22,Other Linux,UTF-8,root,DSLR#vmware@40.22,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.23,vm23,Other Linux,UTF-8,root,DSLR#vmware@40.23,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.24,vm24,Other Linux,UTF-8,root,DSLR#vmware@40.24,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.25,vm25,Other Linux,UTF-8,root,root#2015,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.26,vm26,Other Linux,UTF-8,root,root#2015,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.31,网络监控,Other Linux,UTF-8,root,X.IeV8XJPt,SSH:22,,,,,"ALL,linux",,10.10.40.x
+10.10.40.31,网络监控,Other Linux,UTF-8,root,X.IeV8XJPt,SFTP:22,,,,,"ALL,linux",,10.10.40.x
+10.10.40.34,存储管理机,Other Windows,UTF-8,administrator,dslr_sm#2013,RDP:3389,,,,,"ALL,windows",,10.10.40.x
+10.10.40.35,vios01,Other,UTF-8,padmin,vios01#dslr,SSH:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.35,vios01,Other,UTF-8,padmin,vios01#dslr,SFTP:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.36,vios02,Other,UTF-8,padmin,vios02#dslr,SSH:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.36,vios02,Other,UTF-8,padmin,vios02#dslr,SFTP:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.37,vios03,Other,UTF-8,padmin,padmin,SSH:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.37,vios03,Other,UTF-8,padmin,padmin,SFTP:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.38,vios04,Other,UTF-8,padmin,padmin,SSH:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.38,vios04,Other,UTF-8,padmin,padmin,SFTP:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.60,vios05,Other,UTF-8,padmin,padmin,SSH:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.60,vios05,Other,UTF-8,padmin,padmin,SFTP:22,,,,,"ALL,VIOS,linux",,10.10.40.x
+10.10.40.62,vm62,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.63,vm63,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.64,vm64,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.65,vm65,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.66,vm66,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,esxi,linux",,10.10.40.X
+10.10.40.70,fcsw_F48_up,Other,UTF-8,admin,Ds1r#2020,SSH:22,,,,,"ALL,fcsw,linux",,10.10.40.X
+10.10.40.71,fcsw_F48_down,Other,UTF-8,admin,Ds1r#2020,SSH:22,,,,,"ALL,fcsw,linux",,10.10.40.X
+10.10.40.82,nutanix-1,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.82,nutanix-1,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.83,nutanix-2,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.83,nutanix-2,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.84,nutanix-3,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.84,nutanix-3,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.85,nutanix-4,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.85,nutanix-4,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.86,nutanix-5,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.86,nutanix-5,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.10.40.x
+10.10.40.9,vCenter,Other Windows,UTF-8,administrator,bV25iM/;29,RDP:3389,,,,,"ALL,Vcenter,windows",,10.10.40.x
+10.10.80.88,OA_OS,Other Windows,UTF-8,administrator,oa$dslr20170825,RDP:3389,,,,,"ALL,OA,windows",,10.10.80.x
+10.10.80.89,OA办公数据库,Other,UTF-8,SYS,v3x#2019,Oracle:1521,V3X,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.80.x
+10.10.80.89,OA办公数据库,Other,UTF-8,v3x_cx,v3xcx2019,Oracle:1521,v3x,SERVICENAME,Normal,,"ALL,数据库",,10.10.80.x
+10.10.80.89,OA_DB,Other Windows,UTF-8,administrator,dslr_oa0.618,RDP:3389,,,,,"ALL,OA,windows",,10.10.80.x
+10.10.88.86,数据中心,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,SYS,Sys#2021,Oracle:1521,dbcenter,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,dw,,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,dm,,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,ods,,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,md,,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,dslrlg,,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,dslrcss,css#202,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,dslrlyb,Dslr#lyb,Oracle:1521,dbcenter,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,数据中心,Other Linux,UTF-8,orbh,ourui2020,Oracle:1521,dbcenter_st,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.88.x
+10.10.88.86,PCZLK,Other,UTF-8,SYS,syspc886,Oracle:1521,pczlk,SERVICENAME,SYSDBA,,"ALL,数据库",,10.10.88.x
+10.10.88.87,数据中心,Other Linux,UTF-8,root,J|_Sh?=a-F,SSH:22,,,,,"ALL,linux",,10.10.88.x
+10.10.88.87,数据中心,Other Linux,UTF-8,root,J|_Sh?=a-F,SFTP:22,,,,,"ALL,linux",,10.10.88.x
+10.105.20.10,韶关域控,Windows Server 2008,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,ALL,,10.105.20.x
+10.105.20.12,韶关ad01,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.105.20.x
+10.105.20.13,韶关ad02,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.105.20.x
+10.105.20.21,韶关WMS-B2C-RF,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.22,韶关WMS-B2C-RF备机,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.23,韶关WMS-B2C应用,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.24,韶关WMS-B2C应用备机,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.25,韶关WMS-B2C打印、分波打印-小票,Other Windows,UTF-8,administrator,dswl#L5ZTCnMk,RDP:3389,,,,,"ALL,windows,物流WMS",,10.105.20.x
+10.105.20.26,韶关报表服务器、韶关WMS-WCS接口,Other Windows,UTF-8,administrator,dswl#l3dfdylk,RDP:3389,,,,,"ALL,windows,物流WMS",,10.105.20.x
+10.105.20.27,韶关-wmsdb01,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.105.20.x
+10.105.20.27,韶关-wmsdb01,Other Linux,UTF-8,meta,WMmeta1,Oracle:1521,SCPRD,SERVICENAME,Normal,,"ALL,linux,数据库",,10.105.20.x
+10.105.20.27,韶关-wmsdb01,Other Linux,UTF-8,WMSADMIN,WMwmssql1,Oracle:1521,SCPRD,SERVICENAME,Normal,,"ALL,linux,数据库",,10.105.20.x
+10.105.20.27,韶关-wmsdb01,Other Linux,UTF-8,sys,Sys#2021,Oracle:1521,scprd,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.105.20.x
+10.105.20.28,韶关-wmsdb02,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.105.20.x
+10.105.20.29,韶关B2C-E3接口服务器,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.105.20.x
+10.105.20.30,韶关-wcsdb,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库",,10.105.20.x
+10.105.20.31,韶关WMS-B2C-RF备机,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.32,韶关WMS-B2B应用,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.33,韶关WMS-B2B应用备机,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.20.35,韶关WMS-B2B打印、报表,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.105.20.x
+10.105.20.36,韶关面单服务器,Windows Server 2008,UTF-8,administrator,dslr#2019,RDP:3389,,,,,ALL,,10.105.20.x
+10.105.20.36,韶关面单服务器,Windows Server 2008,UTF-8,wuliu,Dslr#2020,RDP:3389,,,,,ALL,,10.105.20.x
+10.105.20.37,韶关接口专用,Windows Server 2008,UTF-8,administrator,dslr#2019,RDP:3389,,,,,ALL,,10.105.20.x
+10.105.20.37,韶关接口专用,Windows Server 2008,UTF-8,wuliu,Dslr#2020,RDP:3389,,,,,ALL,,10.105.20.x
+10.105.20.38,韶关云打印服务,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.105.20.x
+10.105.23.50,sg-vm50,Other Linux,UTF-8,root,dell@1234,SSH:22,,,,,"ALL,esxi,linux",,10.105.23.x
+10.105.23.51,sg-vm51,Other Linux,UTF-8,root,dell@1234,SSH:22,,,,,"ALL,esxi,linux",,10.105.23.x
+10.105.23.52,sg-vm52,Other Linux,UTF-8,root,dell@1234,SSH:22,,,,,"ALL,esxi,linux",,10.105.23.x
+10.105.23.53,sg-vm53,Other Linux,UTF-8,root,dell@1234,SSH:22,,,,,"ALL,esxi,linux",,10.105.23.x
+10.105.23.56,韶关VCenter,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.105.23.x
+10.11.10.10,门店人员流量监控系统,Other Windows,UTF-8,administrator,h!XLVF86ys,RDP:3389,,,,,"ALL,windows",,10.11.10.x
+10.11.10.101,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.101,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.102,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.102,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.103,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.103,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.104,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.104,COMS,Other Linux,UTF-8,root,;l1j@38hzT,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.11,FTP_JM,Other Windows,UTF-8,administrator,Wj$ac0iU@0,RDP:3389,,,,,"ALL,windows",,10.11.10.x
+10.11.10.12,都市丽人WEB,Other Linux,UTF-8,root,e%a#CW4b\N,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.12,都市丽人WEB,Other Linux,UTF-8,root,e%a#CW4b\N,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.121,web_interfaca02,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.121,web_interfaca02,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.13,电商商品计划,Other Linux,UTF-8,root,TUafJN!1;U,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.13,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.13,电商商品计划,Other Linux,UTF-8,root,TUafJN!1;U,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.14,电商商品计划,Other Linux,UTF-8,root,",YiL|NYF47",SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.14,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.14,电商商品计划,Other Linux,UTF-8,root,",YiL|NYF47",SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.15,欧迪芬B2C,Other Linux,UTF-8,root,AG2wx\yQ/V,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.15,欧迪芬B2C,Other Linux,UTF-8,root,AG2wx\yQ/V,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.16,otrs反向代理,Other Linux,UTF-8,root,"_""i$K|~pBT",SSH:22,,,,,"ALL,OTRS,linux",,10.11.10.x
+10.11.10.16,otrs反向代理,Other Linux,UTF-8,root,"_""i$K|~pBT",SFTP:22,,,,,"ALL,OTRS,linux",,10.11.10.x
+10.11.10.18,企业微信中间件,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.18,企业微信中间件,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.19,欧迪芬POS-WEB,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.19,欧迪芬POS-WEB,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.2,H5活动,Other Linux,UTF-8,root,Gb:yu~G005,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.2,H5活动,Other Linux,UTF-8,root,Gb:yu~G005,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.20,古田商会,Other Linux,UTF-8,root,root#2015,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.20,古田商会,Other Linux,UTF-8,root,,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.21,shop09,Other Linux,UTF-8,root,"UXT~7""vzy*",SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.21,shop09,Other Linux,UTF-8,root,"UXT~7""vzy*",SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.22,欧迪芬POS-APP1,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.22,欧迪芬POS-APP1,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.23,欧迪芬POS-APP2,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.23,欧迪芬POS-APP2,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.24,欧迪芬POS-MQ,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.24,欧迪芬POS-MQ,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.25,建行银企通前置机,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows,建行银企通",,10.11.10.x
+10.11.10.25,建行银企通前置机,Other Windows,UTF-8,yqt,-9';i6'3mk,RDP:3389,,,,,"ALL,windows,建行银企通",,10.11.10.x
+10.11.10.26,欧迪芬POS-DSP,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.26,欧迪芬POS-DSP,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.27,欧迪芬POS-POSbatch,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.27,欧迪芬POS-POSbatch,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.28,欧迪芬POS-Ftp,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.28,欧迪芬POS-Ftp,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.29,O2O-微盟-APP01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,O2O-微盟,linux",,10.11.10.x
+10.11.10.29,O2O-微盟-APP01,Other Linux,UTF-8,root,_Z|&^JAQt5,SFTP:22,,,,,"ALL,O2O-微盟,linux",,10.11.10.x
+10.11.10.3,电商商品计划,Other Linux,UTF-8,root,A7oAswFLne,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.3,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.3,电商商品计划,Other Linux,UTF-8,root,A7oAswFLne,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.30,都市丽人WEB,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.30,都市丽人WEB,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.31,IHS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.31,IHS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.32,IHS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.32,IHS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.33,web-jumper01,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.33,web-jumper01,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.34,web-jumper02,Other Linux,UTF-8,root,,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.34,web-jumper02,Other Linux,UTF-8,root,,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.35,sms_prd_zyftp,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.35,sms_prd_zyftp,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.36,sms_prd_jmftp,Other Linux,UTF-8,root,a@8PeCkvMy,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.36,sms_prd_jmftp,Other Linux,UTF-8,root,a@8PeCkvMy,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.37,odi-Regularftp,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.37,odi-Regularftp,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.38,B2C,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,B2C,linux",,10.11.10.x
+10.11.10.38,B2C,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,B2C,linux",,10.11.10.x
+10.11.10.39,B2C,Other Linux,UTF-8,root,;K6~;2ZSwQ,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.39,B2C,Other Linux,UTF-8,root,;K6~;2ZSwQ,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.4,电商商品计划,Other Linux,UTF-8,root,TGd1xSF#_;,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.4,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.4,电商商品计划,Other Linux,UTF-8,root,TGd1xSF#_;,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.40,B2C,Other Linux,UTF-8,root,;K6~;2ZSwQ,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.40,B2C,Other Linux,UTF-8,root,;K6~;2ZSwQ,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.41,B2C,Other Linux,UTF-8,root,;K6~;2ZSwQ,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.41,B2C,Other Linux,UTF-8,root,;K6~;2ZSwQ,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.42,直营POS,Other Linux,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.42,直营POS,Other Linux,UTF-8,root,Dslr*2022!@#,SFTP:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.44,O2O-微盟-APP02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,O2O-微盟,linux",,10.11.10.x
+10.11.10.45,欧迪芬O2O-APP01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.46,欧迪芬O2O-APP02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.11.10.x
+10.11.10.49,gipo-app,Other Windows,UTF-8,administrator,dslr#gipo$2020,RDP:3389,,,,,"ALL,windows",,10.11.10.x
+10.11.10.49,gipo-app,Other Windows,UTF-8,gipo,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.11.10.x
+10.11.10.5,电商商品计划,Other Linux,UTF-8,root,8vBgoU1`|M,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.5,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.5,电商商品计划,Other Linux,UTF-8,root,8vBgoU1`|M,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.50,E3应用主机,Other Linux,UTF-8,root,~p^91Auo5j,SSH:22,,,,,"ALL,linux,电商E3",,10.11.10.x
+10.11.10.50,E3应用主机,Other Linux,UTF-8,root,rk-#rfi0NO,SFTP:22,,,,,"ALL,linux,电商E3",,10.11.10.x
+10.11.10.6,电商商品计划,Other Linux,UTF-8,root,1-IoW~b~#Y,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.6,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.6,电商商品计划,Other Linux,UTF-8,root,1-IoW~b~#Y,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.60,MAIL,Other Linux,UTF-8,root,4Tc|i/OlSu,SSH:22,,,,,"ALL,linux,邮件系统",,10.11.10.x
+10.11.10.60,MAIL,Other Linux,UTF-8,root,4Tc|i/OlSu,SFTP:22,,,,,"ALL,linux,邮件系统",,10.11.10.x
+10.11.10.61,mpsr-web,CentOS,UTF-8,root,dslr#2019,SSH:22,,,,,ALL,,10.11.10.x
+10.11.10.7,电商商品计划,Other Linux,UTF-8,root,"91|Ks^&uL""",SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.7,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.7,电商商品计划,Other Linux,UTF-8,root,"91|Ks^&uL""",SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.8,电商商品计划,Other Linux,UTF-8,root,l^VLHi?*EI,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.8,电商商品计划,Other Linux,UTF-8,fmds,password,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.8,电商商品计划,Other Linux,UTF-8,root,l^VLHi?*EI,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.9,电商商品计划-Tableau,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.9,电商商品计划-Tableau,Other Linux,UTF-8,fmds,dslr#2019,SSH:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.9,电商商品计划-Tableau,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.10.9,电商商品计划-Tableau,Other Linux,UTF-8,fmds,dslr#2019,SFTP:22,,,,,"ALL,linux,电商商品计划",,10.11.10.x
+10.11.20.11,B2B,Other Linux,UTF-8,root,"w""$l\u0Q9_",SSH:22,,,,,"ALL,linux,总部B2B",,10.11.20.x
+10.11.20.11,B2B,Other Linux,UTF-8,root,"w""$l\u0Q9_",SFTP:22,,,,,"ALL,linux,总部B2B",,10.11.20.x
+10.11.20.13,旧订货会,Other Linux,UTF-8,root,"s~3T:I,;:B",SSH:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.13,旧订货会,Other Linux,UTF-8,root,"s~3T:I,;:B",SFTP:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.14,旧订货会,Other Linux,UTF-8,root,12F_Hwx_X\,SSH:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.14,旧订货会,Other Linux,UTF-8,root,12F_Hwx_X\,SFTP:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.15,B2C,Other Linux,UTF-8,root,"=\""|D@n""0e",SSH:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.15,B2C,Other Linux,UTF-8,root,"=\""|D@n""0e",SFTP:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.16,B2C,Other Linux,UTF-8,root,h*;5.-W**_,SSH:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.16,B2C,Other Linux,UTF-8,root,h*;5.-W**_,SFTP:22,,,,,"ALL,linux",,10.11.20.x
+10.11.20.21,电商B2B,Other Linux,UTF-8,root,ihs#b2b.web#11,SSH:22,,,,,"ALL,linux,电商B2B",,10.11.20.x
+10.11.20.21,电商B2B,Other Linux,UTF-8,root,ihs#b2b.web#11,SFTP:22,,,,,"ALL,linux,电商B2B",,10.11.20.x
+10.11.255.1,DSLR-HQ-DMZ-AS3560G-01,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,10.11.255.x
+10.12.10.10,T5-DNS,Other Windows,UTF-8,dgdslr\administrator,x10i_dslr*.*2013,RDP:3389,,,,,"ALL,windows,域",,10.12.10.x
+10.12.11.13,多媒体发布,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.13,多媒体发布,Other Windows,UTF-8,dslr,1qaz@WSX,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.14,会议室管理,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.14,会议室管理,Other Linux,UTF-8,guozhongyou,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.14,会议室管理,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.14,会议室管理,Other Linux,UTF-8,guozhongyou,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.15,灯光智控,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows,智慧楼宇",,10.12.11.x
+10.12.11.16,智慧楼宇管理平台-web01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.16,智慧楼宇管理平台-web01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.16,智慧楼宇管理平台-web01,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.16,智慧楼宇管理平台-web01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.17,智慧楼宇管理平台-web02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.17,智慧楼宇管理平台-web02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.17,智慧楼宇管理平台-web02,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.17,智慧楼宇管理平台-web02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.18,智慧楼宇管理平台-app01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.18,智慧楼宇管理平台-app01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.18,智慧楼宇管理平台-app01,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.18,智慧楼宇管理平台-app01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.19,智慧楼宇管理平台-app02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.19,智慧楼宇管理平台-app02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.19,智慧楼宇管理平台-app02,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.19,智慧楼宇管理平台-app02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.199,机房监控主机,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.20,智慧楼宇管理平台-redis01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.20,智慧楼宇管理平台-redis01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.20,智慧楼宇管理平台-redis01,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.20,智慧楼宇管理平台-redis01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.21,智慧楼宇管理平台-redis02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.21,智慧楼宇管理平台-redis02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.21,智慧楼宇管理平台-redis02,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.21,智慧楼宇管理平台-redis02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.22,门禁-jielink,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows,智慧楼宇",,10.12.11.x
+10.12.11.23,捷顺道闸-outapi,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.23,捷顺道闸-outapi,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.23,捷顺道闸-outapi,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.23,捷顺道闸-outapi,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.24,捷顺道闸-xmpp,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.24,捷顺道闸-xmpp,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.24,捷顺道闸-xmpp,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.24,捷顺道闸-xmpp,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.25,捷顺道闸-web,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.25,捷顺道闸-web,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.25,捷顺道闸-web,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.25,捷顺道闸-web,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.26,捷顺道闸-task,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.26,捷顺道闸-task,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.26,捷顺道闸-task,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.26,捷顺道闸-task,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.27,捷顺道闸-通讯网关+管理平台,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.27,捷顺道闸-通讯网关+管理平台,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.27,捷顺道闸-通讯网关+管理平台,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.27,捷顺道闸-通讯网关+管理平台,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.28,捷顺道闸-fs+redis,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.28,捷顺道闸-fs+redis,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.28,捷顺道闸-fs+redis,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.28,捷顺道闸-fs+redis,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,智慧楼宇",,10.12.11.x
+10.12.11.29,无线认证,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.30,电商文件服务器1,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.30,电商文件服务器1,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.31,电商文件服务器2,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.33,欧迪芬文件服务器,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.34,物流-文件服务器,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.35,西门子灯光智控-BS端,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.36,数据中台-图片,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.36,数据中台-图片,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.40,市场文件服务器,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.41,文件系统01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.42,文件系统02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.43,文件系统03,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.44,文件管理编辑,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.44,文件在线编辑,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.45,大巴车调度,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.46,qme3,Other Windows,UTF-8,administrator,Dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.46,qme3,Other Windows,UTF-8,dslr,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.48,百分百缘分NC_应用,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.11.x
+10.12.11.77,77域,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.86,天安dhcp,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.88,cosmolady主域控,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.88,cosmolady主域控,Other Windows,UTF-8,cosmolady\3333,Dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.11.89,AD域控02,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.12.11.x
+10.12.12.10,同鑫应用服务器,Windows Server 2008,UTF-8,administrator,dslr#2022,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.100,丽人O2O_redis,CentOS,UTF-8,root,PAHJ@urxT|,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.101,MOIA应用,Red Hat,UTF-8,root,JOBX@/sfcF,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.102,测试域控,Windows Server 2008,UTF-8,lady\it,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.102,测试域控,Windows Server 2008,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.103,Datastage,Red Hat,UTF-8,root,dslr#2021,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.104,CLM,Other Windows,UTF-8,administrator,Xr1R$n22Dh,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.105,CLM,Other Windows,UTF-8,administrator,?)gsZ)b<?b,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.106,CLM,Aliyun Linux,UTF-8,root,\tza8CN2r9,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.106,CLM,Aliyun Linux,UTF-8,root,\tza8CN2r9,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.107,CLM,Other Linux,UTF-8,root,ow-nSG2Pjv,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.107,CLM,Other Linux,UTF-8,root,ow-nSG2Pjv,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.108,物流OMS-福民外挂小程序,CentOS,UTF-8,administrator,v*0Sq2mIAi,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.11,OA-ecology01,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.11,OA-ecology01,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.11,OA-ecology01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.11,OA-ecology01,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.110,订货会系统APP01,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.111,订货会系统APP02,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.112,订货会系统APP03,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.113,订货会系统APP04,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.114,订货会系统APP05,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.115,订货会系统APP06,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.116,订货会系统APP07,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.117,订货会系统APP08,Windows Server 2008,UTF-8,administrator,Kdt@dslr.ser,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.12.118,ehr_app,Other Windows,UTF-8,administrator,GfXS;>J%p8,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.118,ehr_app,Other Windows,UTF-8,dslr,Ehr#2020,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.12,OA-ecology02,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.12,OA-ecology02,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.12,OA-ecology02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.12,OA-ecology02,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.120,零信任控制中心,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.123,SVN,Red Hat,UTF-8,root,X\pH!\W#bL,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.123,SVN,Red Hat,UTF-8,svnuser,svn$manager,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.124,EHR考勤,Windows Server 2008,UTF-8,administrator,:F25kDqkU~,RDP:3389,,,,,ALL,,10.12.12.x
+10.12.12.124,EHR考勤,Windows Server 2008,UTF-8,dslr,Ehr#2020,RDP:3389,,,,,ALL,,10.12.12.x
+10.12.12.125,freebi-portal,Aliyun Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.126,mss,Aliyun Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.127,mss-02,Aliyun Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.128,mps,Aliyun Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.129,mps02,Aliyun Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.13,OA-ecology03,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.13,OA-ecology03,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.13,OA-ecology03,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.13,OA-ecology03,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.130,windows日志服务器,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.131,E3应用备机,CentOS,UTF-8,root,rk-#rfi0NO,SSH:22,,,,,"ALL,linux,电商E3",,10.12.12.x
+10.12.12.131,E3应用备机,CentOS,UTF-8,root,rk-#rfi0NO,SFTP:22,,,,,"ALL,linux,电商E3",,10.12.12.x
+10.12.12.132,E3接口BAP备机,Windows Server 2008,UTF-8,administrator,Dslr#2020,RDP:3389,,,,,"ALL,windows,电商E3",,10.12.12.x
+10.12.12.133,文件备份服务器01,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.134,文件备份服务器02,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.135,mps_web,Aliyun Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.136,mps_web02,Aliyun Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.137,物流oms,Aliyun Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.138,cosmolady-官网,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.139,工商银行接口,Other Windows,UTF-8,administrator,NRO.|$62o^,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.14,OA-ecology04,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.14,OA-ecology04,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.14,OA-ecology04,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.14,OA-ecology04,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.146,b2b接口test,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.147,物流云打印服务,Aliyun Linux,UTF-8,root,dskr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.148,SAP建行支付接口,Other Windows,UTF-8,administrator,SAP-damo@200,RDP:3389,,,,,ALL,,10.12.12.x
+10.12.12.149,Datastage,Red Hat,UTF-8,root,c!+1o9P1NV,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.15,OA-ecology05,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.15,OA-ecology05,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.15,OA-ecology05,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.15,OA-ecology05,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.150,hr_assist-apache代理,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.151,GST,Windows Server 2008,UTF-8,administrator,ssqz^B*i+r,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.152,NC,Other Windows,UTF-8,administrator,B5t]O8Hj1r,RDP:3389,,,,,"ALL,NC,windows",,10.10.8.x
+10.12.12.153,pc-lp,Other Windows,UTF-8,administrator,dslr#2022,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.155,达摩系统_app,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.155,达摩系统_app,Aliyun Linux,UTF-8,dm,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.156,mps迁移,CentOS,UTF-8,root,dslr#2022,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.157,mps迁移02,CentOS,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.158,OMS-MQ-gw,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.159,OMS-MQ-qu01,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.16,OA-contract,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.16,OA-contract,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.16,OA-contract,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.16,OA-contract,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.160,OMS-MQ-qu02,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.162,oms-2-app02,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.163,OMS-client01,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.164,OMS-client03,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.165,oms-2-web,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.166,FreeBI01,Red Hat,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.167,FreeBi02,Red Hat,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.168,freebi03,Red Hat,UTF-8,root,Dslr*2022!@#,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.17,OA-phone01,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.17,OA-phone01,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.17,OA-phone01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.17,OA-phone01,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.18,OA-phone02,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.18,OA-phone02,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.18,OA-phone02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.18,OA-phone02,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.19,OA-filesrv,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.19,OA-filesrv,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.19,OA-filesrv,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.19,OA-filesrv,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux",,10.12.12.x
+10.12.12.20,OA-loadbalance,Other Linux,UTF-8,root,5jPW4qcqI+,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.20,OA-loadbalance,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.20,OA-loadbalance,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.20,OA-loadbalance,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.21,玉泉WMS-FH定时器快递接口,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.22,欧迪芬数据分析APP01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.22,欧迪芬数据分析APP01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.223,商品报表,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.23,欧迪芬数据分析APP02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.23,欧迪芬数据分析APP02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.24,商品管理系统APP01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.24,商品管理系统APP01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.25,商品管理系统APP02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.25,商品管理系统APP02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.254,0000,Windows Server 2016,UTF-8,,,,,,,,ALL,,10.12.12.x
+10.12.12.26,商品管理系统计算,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.26,商品管理系统计算,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.27,欧迪芬数据分析Master,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.27,欧迪芬数据分析Master,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.29,丽人三云APP,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.29,丽人三云APP,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.30,商品系统计算节点2,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.31,middle-app01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.31,middle-app01,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.31,middle-app01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.31,middle-app01,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.32,middle-app02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.32,middle-app02,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.32,middle-app02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.32,middle-app02,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.33,middle-cloudera-man01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.33,middle-cloudera-man01,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.33,middle-cloudera-man01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.33,middle-cloudera-man01,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.34,middle-cloudera-man02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.34,middle-cloudera-man02,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.34,middle-cloudera-man02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.34,middle-cloudera-man02,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.35,middle-compute01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.35,middle-compute01,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.35,middle-compute01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.35,middle-compute01,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.36,middle-compute02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.36,middle-compute02,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.36,middle-compute02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.36,middle-compute02,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.37,middle-compute03,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.37,middle-compute03,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.37,middle-compute03,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.37,middle-compute03,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.38,middle-compute04,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.38,middle-compute04,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.38,middle-compute04,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.38,middle-compute04,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.39,middle-compute05,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.39,middle-compute05,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.39,middle-compute05,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.39,middle-compute05,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.40,middle-compute06,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.40,middle-compute06,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.40,middle-compute06,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.40,middle-compute06,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.41,middle-compute07,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.41,middle-compute07,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.41,middle-compute07,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.41,middle-compute07,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.42,middle-compute08,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.42,middle-compute08,Other Linux,UTF-8,fmds,fmds#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.42,middle-compute08,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.42,middle-compute08,Other Linux,UTF-8,fmds,fmds#2020,SFTP:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.43,OA文件服务器2,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.44,衣链网应用,Other Linux,UTF-8,root,"ZHMA8dx,~e",SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.45,SAP-PRD01,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,SAP-ERP,linux",,10.12.12.x
+10.12.12.46,SAP-PRD02,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,SAP-ERP,linux",,10.12.12.x
+10.12.12.47,PO-PRD01,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,SAP-PI,linux",,10.12.12.x
+10.12.12.47,PO-PRD01,Other Linux,UTF-8,root,root123,SFTP:22,,,,,"ALL,SAP-PI,linux",,10.12.12.x
+10.12.12.48,PO-PRD02,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,SAP-PI,linux",,10.12.12.x
+10.12.12.48,PO-PRD02,Other Linux,UTF-8,popadm,Sap2cool,SSH:22,,,,,"ALL,SAP-PI,linux",,10.12.12.x
+10.12.12.61,丽人三云APP,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.62,丽人三云APP,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.64,物流BSM结算应用01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.65,禅道项目管理,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.66,物流BMS应用2,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.67,物流旺店通,Windows Server 2008,UTF-8,administrator,dslr#2020,RDP:3389,,,,,ALL,,10.12.12.x
+10.12.12.68,物流TMS应用,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.69,物流TMS系统,Other Windows,UTF-8,administrator,Dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.70,欧迪芬三云APP,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,windows",,10.10.30.x
+10.12.12.71,答题游戏,CentOS,UTF-8,root,dslr#2019,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.72,自在时光BOS_APP01,Windows Server 2008,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.72,自在时光BOS_APP01,Windows Server 2008,UTF-8,freeday,,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.73,梦网短信平台-APP,Windows Server 2008,UTF-8,administrator,M>E~Mtl<6K,RDP:3389,,,,,"ALL,windows,短信平台",,10.12.12.x
+10.12.12.74,自在时光BOS_APP02,Windows Server 2008,UTF-8,administrator,i{vZ^K^xK*,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.74,自在时光BOS_APP02,Windows Server 2008,UTF-8,freeday,,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.75,自在时光BOS_B2B,Windows Server 2008,UTF-8,administrator,u^F<#/zTSh,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.75,自在时光BOS_B2B,Windows Server 2008,UTF-8,freeday,,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.76,物流E3B2C接口测试,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.77,物流inforb2b测试,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.78,物流case系统部署,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.79,IT服务台服务器,Other Linux,UTF-8,root,lkmojupdfe,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.80,自在时光BOS_interface,Windows Server 2008,UTF-8,administrator,{f)qlrGNRE,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.80,自在时光BOS_interface,Windows Server 2008,UTF-8,freeday,,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.81,100%-app,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.81,100%-app,Other Windows,UTF-8,bj01,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.81,100%-app,Other Windows,UTF-8,bj02,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.82,RPA机器人——张晓曦,Other Windows,UTF-8,RPA,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.82,RPA机器人——张晓曦,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.83,BWPRD01,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.84,BWPRD02,Other Linux,UTF-8,root,y2GI2tFeZs,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.86,百分百缘分,Other Windows,UTF-8,administrator,Dslr#2021,RDP:3389,,,,,"ALL,windows",,Default Network
+10.12.12.86,百分百缘分,Other Windows,UTF-8,bj01,Dslr#2021,RDP:3389,,,,,"ALL,windows",,Default Network
+10.12.12.86,百分百缘分,Other Windows,UTF-8,bj02,Dslr#2021,RDP:3389,,,,,"ALL,windows",,Default Network
+10.12.12.87,帆软应用app01,CentOS,UTF-8,root,dslr#2019,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.88,帆软应用app02,CentOS,UTF-8,root,dslr#2019,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.89,帆软redis,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.90,U8_APP,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.12.12.x
+10.12.12.91,欧迪芬O2O-APP01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.92,欧迪芬O2O-APP02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.93,欧迪芬O2O-loadbalance,Other Linux,UTF-8,root,K75&X\Ac5y,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.94,欧迪芬O2O-mq,Other Linux,UTF-8,root,5XNt+#lbw#,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.95,欧迪芬O2O-redis,Other Linux,UTF-8,root,PAHJ@urxT|,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.96,丽人O2O_APP1,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.97,丽人O2O_APP2,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.12.98,丽人O2O_loadbalance,CentOS,UTF-8,root,K75&X\Ac5y,SSH:22,,,,,ALL,,10.12.12.x
+10.12.12.99,丽人O2O_mq,CentOS,UTF-8,root,5XNt+#lbw#,SSH:22,,,,,"ALL,linux",,10.12.12.x
+10.12.20.11,智慧楼宇管理平台-db01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.11,智慧楼宇管理平台-db01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.11,智慧楼宇管理平台-db01,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.11,智慧楼宇管理平台-db01,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.115,U8_db,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.12.20.x
+10.12.20.122,物流奇门接口库,CentOS,UTF-8,root,Dslr#2021,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.13,捷顺道闸-db,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.13,捷顺道闸-db,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.13,捷顺道闸-db,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.13,捷顺道闸-db,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.14,OA-oadb01,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,OA,linux,数据库",,10.12.20.x
+10.12.20.14,OA-oadb01,Other Linux,UTF-8,fanwei,dslr#2020,SSH:22,,,,,"ALL,OA,linux,数据库",,10.12.20.x
+10.12.20.14,OA-oadb01,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,OA,linux,数据库",,10.12.20.x
+10.12.20.14,OA-oadb01,Other Linux,UTF-8,fanwei,dslr#2020,SFTP:22,,,,,"ALL,OA,linux,数据库",,10.12.20.x
+10.12.20.14,OA-oadb01,Other Linux,UTF-8,oaadmin,oaad2020,Oracle:1521,ecology,SERVICENAME,Normal,,"ALL,OA,linux,数据库",,10.12.20.x
+10.12.20.15,商品管理系统DB01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.15,商品管理系统DB01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.151,NC,Other Windows,UTF-8,administrator,eC)e1JNIsF,RDP:3389,,,,,"ALL,NC,windows,数据库",,10.10.8.x
+10.12.20.151,NC,Other Windows,UTF-8,SYS,sysnc$851,Oracle:1521,ORCL,SERVICENAME,SYSDBA,,"ALL,NC,windows,数据库",,10.10.8.x
+10.12.20.153,NC,Other Windows,UTF-8,administrator,4(qL4HES84,RDP:3389,,,,,"ALL,NC,windows,数据库",,10.10.8.x
+10.12.20.153,NC,Other Windows,UTF-8,SYS,oracle_sys2012@nc,Oracle:1521,orcl,SERVICENAME,SYSDBA,,"ALL,NC,windows,数据库",,10.10.8.x
+10.12.20.16,商品管理系统DB02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.16,商品管理系统DB02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.17,zabbix-db,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.17,zabbix-db,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.18,欧迪芬数据分析DB01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.18,欧迪芬数据分析DB01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.19,欧迪芬数据分析DB02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.19,欧迪芬数据分析DB02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.2,订货会系统DB01,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.20.20,智慧楼宇管理平台-db02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.20,智慧楼宇管理平台-db02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SSH:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.20,智慧楼宇管理平台-db02,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.20,智慧楼宇管理平台-db02,Other Linux,UTF-8,guozhongyou,Dslr#2019,SFTP:22,,,,,"ALL,linux,数据库,智慧楼宇",,10.12.20.x
+10.12.20.23,middle-db01,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.23,middle-db01,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.23,middle-db01,Other Linux,UTF-8,dpuser,dp#1013,MySQL:3306,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.24,middle-db02,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.24,middle-db02,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,SYS,Sys#2021,Oracle:1521,dslrqas2,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,qpms,12c#qpms,Oracle:1521,dslrqas2,SERVICENAME,Normal,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,potqpms,pot#qpms8,Oracle:1521,DSLRQAs2,SERVICENAME,Normal,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,repqpms,rep#2018,Oracle:1521,DSLRQAS2,SERVICENAME,Normal,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,qpms(12c),Other Linux,UTF-8,orbh,ourui2020,Oracle:1521,dslrqas2,SERVICENAME,Normal,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.245,Freebi数据库,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.20.x
+10.12.20.251,dslrprd_oracle,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.20.x
+10.12.20.253,datax,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,Default Network
+10.12.20.26,三云生产mysql,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,Default Network
+10.12.20.27,EHR数据库,Windows Server 2016,UTF-8,dslr,Ehr#2020,RDP:3389,,,,,"ALL,windows",,10.12.20.x
+10.12.20.27,EHR数据库,Windows Server 2016,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.12.20.x
+10.12.20.27,EHR数据库,Windows Server 2016,UTF-8,sa,Dslr#2020,SQL Server:1433,,,,,"ALL,windows",,10.12.20.x
+10.12.20.27,EHR数据库,Windows Server 2016,UTF-8,oa,Loinoa#202112,SQL Server:1433,,,,,"ALL,windows",,10.12.20.x
+10.12.20.28,数据中心DBCENTER,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.29,RFC-DB,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.3,衣链网B2B,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.3,衣链网B2B,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.3,衣链网B2B,Other Linux,UTF-8,yilian,yilian,MySQL:3306,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.3,依恋b2b,Other,UTF-8,yilian,yilian,MySQL:3306,,,,,"ALL,数据库",,10.10.20.x
+10.12.20.31,物流BMS主库,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.32,客流分析数据库,Other Linux,UTF-8,root,pHDrHSWBqF,SSH:22,,,,,"ALL,linux,客流分析系统,数据库",,10.10.20.x
+10.12.20.32,客流分析数据库,Other Linux,UTF-8,root,pHDrHSWBqF,SFTP:22,,,,,"ALL,linux,客流分析系统,数据库",,10.10.20.x
+10.12.20.32,客流系统,Other Linux,UTF-8,root,Mysql123$%^,MySQL:3306,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.32,客流系统,Other Linux,UTF-8,klxt,klxt@123,MySQL:3306,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.33,建行银企通数据库,Other Linux,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,linux,建行银企通,数据库",,10.10.20.x
+10.12.20.33,建行银企通数据库,Other Linux,UTF-8,root,Dslr#2021,SFTP:22,,,,,"ALL,linux,建行银企通,数据库",,10.10.20.x
+10.12.20.33,建行银企通数据库,Other Linux,UTF-8,sys,NNp4yqAf2N^X@0Ks,Oracle:1521,yqt,SERVICENAME,SYSDBA,,"ALL,linux,建行银企通,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,SYS,sys_src2017,Oracle:1521,src,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,sap,,Oracle:1521,src,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,dm,,Oracle:1521,src,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,sapcrm,,Oracle:1521,src,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,hdqp,,Oracle:1521,src,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.34,BI数据库(SRC),Other Linux,UTF-8,crm,,Oracle:1521,src,SERVICENAME,Normal,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.35,OMS数据库,Other,UTF-8,root,Dslr#2021,SSH:22,,,,,"ALL,数据库",,10.12.20.x
+10.12.20.35,OMS数据库,Other,UTF-8,sys,sys123,Oracle:1521,dslrprd5,SERVICENAME,SYSDBA,,"ALL,数据库",,10.12.20.x
+10.12.20.35,OMS数据库,Other,UTF-8,oms,oms2014,Oracle:1521,dslrprd5,SERVICENAME,Normal,,"ALL,数据库",,10.12.20.x
+10.12.20.37,新直营POS数据库-RAC01,Other Linux,UTF-8,root,dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.38,新直营POS数据库-RAC02,Other Linux,UTF-8,root,dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.39,新直营POS数据库-RAC03,Other Linux,UTF-8,root,dslr#2021,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.4,订货会系统DB02,Windows Server 2008,UTF-8,demo\administrator,Kdt@dslr,RDP:3389,,,,,"ALL,dhh,windows",,10.12.12.x
+10.12.20.40,multidb,Other,UTF-8,SYS,Sys#2021,Oracle:1521,multidb,SERVICENAME,SYSDBA,,"ALL,数据库",,10.12.20.x
+10.12.20.41,IT服务台数据库,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.12.20.x
+10.12.20.44,百分百缘分NC_db,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.20.x
+10.12.20.45,FREEBI备库,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.46,物流12C,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.46,物流12C,Other Linux,UTF-8,wms,wms#2017,Oracle:1521,dslrqas2,SERVICENAME,Normal,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.46,物流bidb-import,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.20.x
+10.12.20.47,帆软DB主库,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.47,帆软DB主库,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.48,帆软从库,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.10.20.x
+10.12.20.49,公司内部b2c,Other,UTF-8,SYS,sysb2c049,Oracle:1521,dslrprd2,SERVICENAME,SYSDBA,,"ALL,B2C,数据库",,10.12.20.x
+10.12.20.49,自在时光,Other,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,数据库",,10.12.20.x
+10.12.20.49,自在时光,Other,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,数据库",,10.12.20.x
+10.12.20.49,自在时光,Other,UTF-8,SYS,oracle,Oracle:1521,dslrprd6,SERVICENAME,SYSDBA,,"ALL,数据库",,10.12.20.x
+10.12.20.49,自在时光,Other,UTF-8,bosnds3,bosnds3049,Oracle:1521,dslrprd6,SERVICENAME,Normal,,"ALL,数据库",,10.12.20.x
+10.12.20.52,丽人O2O_db01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,O2O-微盟,linux,数据库",,10.10.20.x
+10.12.20.53,丽人O2O_db02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,O2O-微盟,linux,数据库",,10.10.20.x
+10.12.20.53,丽人O2O_db02,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,O2O-微盟,linux,数据库",,10.10.20.x
+10.12.20.54,梦网短信平台-DB,CentOS,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.54,梦网短信平台-DB,CentOS,UTF-8,emp,123456,Oracle:1521,empdb,SERVICENAME,Normal,,"ALL,linux,数据库",,10.12.20.x
+10.12.20.55,E3数据库备机,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.55,E3数据库备机,CentOS,UTF-8,huissj,hssj2020,MySQL:3306,,,,,ALL,,10.12.20.x
+10.12.20.55,E3数据库备机,CentOS,UTF-8,root,Root#2021,MySQL:3306,,,,,ALL,,10.12.20.x
+10.12.20.55,E3数据库主机,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.57,E3数据库备机,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux,数据库,电商E3",,10.12.20.x
+10.12.20.57,E3数据库备机,CentOS,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux,数据库,电商E3",,10.12.20.x
+10.12.20.57,E3数据库备机,CentOS,UTF-8,root,Root#2021,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.12.20.x
+10.12.20.57,E3数据库备机,CentOS,UTF-8,ruanweifeng,rwf2020,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.12.20.x
+10.12.20.57,E3数据库备机,CentOS,UTF-8,huissj,hssj2020,MySQL:3306,,,,,"ALL,linux,数据库,电商E3",,10.12.20.x
+10.12.20.58,MSS系统主库,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.60,直营POS数据库,Other,UTF-8,new_pos,newp#1220,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,数据库",,10.12.20.x
+10.12.20.60,直营POS数据库,Other,UTF-8,intermediate_db,itmd#1220,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,数据库",,10.12.20.x
+10.12.20.60,直营POS数据库,Other,UTF-8,fwlcx,fwl#2017,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,数据库",,10.12.20.x
+10.12.20.60,直营POS数据库,Other,UTF-8,damo,damo#2022,Oracle:1521,dslrprd1,SERVICENAME,Normal,,"ALL,数据库",,10.12.20.x
+10.12.20.61,电商B2B数据库,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux,总部B2B,数据库,电商B2B",,10.12.20.x
+10.12.20.61,电商B2B数据库,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,linux,总部B2B,数据库,电商B2B",,10.12.20.x
+10.12.20.61,电商B2B数据库,Other Linux,UTF-8,ecommerce_ecom,ecomecom$602,Oracle:1521,dslrprd2,SERVICENAME,Normal,,"ALL,linux,总部B2B,数据库,电商B2B",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,SYS,sys_prd2,Oracle:1521,dslrprd2,SERVICENAME,SYSDBA,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,dslrjjb,jjb1000,Oracle:1521,DSLRPRD2,SERVICENAME,Normal,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,dslryql,yql$1998,Oracle:1521,DSLRPRD2,SERVICENAME,Normal,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,orcx,orcx2020,Oracle:1521,dslrprd2,SERVICENAME,Normal,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,ecommerce,ecom$602,Oracle:1521,dslrprd2,SERVICENAME,Normal,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.62,B2B,Other,UTF-8,etlscan,etl$2013,Oracle:1521,dslrprd2,SERVICENAME,Normal,,"ALL,总部B2B,数据库",,10.12.20.x
+10.12.20.66,欧迪芬O2O-db01,Other Linux,UTF-8,root,gYW1Y+uF3E,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.67,欧迪芬O2O-db02,Other Linux,UTF-8,root,k.joc1_#WS,SSH:22,,,,,"ALL,linux,数据库",,10.10.20.x
+10.12.20.81,100%-db,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.20.x
+10.12.20.81,100%-db,Other Linux,UTF-8,bosnds3,bosnds3912,Oracle:1521,dslrprd6,SERVICENAME,Normal,,"ALL,linux",,10.12.20.x
+10.12.20.85,datastage数据库,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.20.x
+10.12.20.86,百分百缘分数据库,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.12.20.x
+10.12.20.86,百分百缘分数据库,Other Linux,UTF-8,bosnds3,bds_0913,Oracle:1521,dslrprd6,SERVICENAME,Normal,,"ALL,linux",,10.12.20.x
+10.12.20.97,CLM,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,CLM,linux,数据库",,10.10.20.x
+10.12.20.97,CLM,Other Linux,UTF-8,cosmoadmin,Coms@16%!37,SSH:22,,,,,"ALL,CLM,linux,数据库",,10.10.20.x
+10.12.20.97,CLM,Other Linux,UTF-8,root,dslr#2019,SFTP:22,,,,,"ALL,CLM,linux,数据库",,10.10.20.x
+10.12.20.97,CLM,Other Linux,UTF-8,coms,coms15%2097,MySQL:3306,,,,,"ALL,CLM,linux,数据库",,10.10.20.x
+10.12.20.97,CLM,Other Linux,UTF-8,rpms,rpms#2101,MySQL:3306,,,,,"ALL,CLM,linux,数据库",,10.10.20.x
+10.12.20.97,CLM,Other Linux,UTF-8,rpms_cx,rpmscx2020,MySQL:3306,,,,,"ALL,CLM,linux,数据库",,10.10.20.x
+10.12.30.102,Dell-R7525-Vsan-vm01,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.30.x
+10.12.30.103,Dell-R7525-Vsan-vm02,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.30.x
+10.12.30.104,Dell-R7525-Vsan-vm03,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.30.x
+10.12.30.105,Dell-R7525-Vsan-vm04,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,linux",,10.12.30.x
+10.12.30.11,t5-vm11,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.115,R830Vsan-node1,CentOS,UTF-8,root,dslr#2021,SSH:22,,,,,ALL,,10.12.30.x
+10.12.30.116,R830Vsan-node2,CentOS,UTF-8,root,dslr#2021,SSH:22,,,,,ALL,,10.10.30.x
+10.12.30.117,R830Vsan-node3,CentOS,UTF-8,root,dslr#2021,SSH:22,,,,,ALL,,10.12.30.x
+10.12.30.118,R830Vsan-node4,CentOS,UTF-8,root,dslr#2021,SSH:22,,,,,ALL,,10.12.30.x
+10.12.30.119,R830Vsan-node5,CentOS,UTF-8,root,dslr#2021,SSH:22,,,,,ALL,,10.12.30.x
+10.12.30.12,t5-vm12,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.13,t5-vm13,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.14,t5-vm14,Other Linux,UTF-8,root,dslr#2019,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.21,t5-vm21,Other Linux,UTF-8,root,P@ssw0rd,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.22,t5-vm22,Other Linux,UTF-8,root,P@ssw0rd,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.23,t5-vm23,Other Linux,UTF-8,root,P@ssw0rd,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.24,t5-vm24,Other Linux,UTF-8,root,P@ssw0rd,SSH:22,,,,,"ALL,esxi,linux",,10.12.30.x
+10.12.30.25,存储管理,Other Windows,UTF-8,administrator,P@ssw0rd,RDP:3389,,,,,"ALL,windows",,10.12.30.x
+10.12.30.27,nutanix-6,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.27,nutanix-6,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.29,nutanix-7,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.29,nutanix-7,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.31,nutanix-8,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.31,nutanix-8,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.33,nutanix-9,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.33,nutanix-9,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.35,nutanix-10,Other,UTF-8,nutanix,Dslr#2020,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.30.35,nutanix-10,Other,UTF-8,admin,Nutanix/4u@123,SSH:22,,,,,"ALL,linux,nutanix",,10.12.30.x
+10.12.31.113,fcsw113,Other Network,UTF-8,admin,passwordk,SSH:22,,,,,ALL,,10.12.31.x
+10.12.31.114,fcsw114,Other Network,UTF-8,admin,password,SSH:22,,,,,ALL,,10.12.31.x
+10.12.31.28,t5-fcsw28,Other,UTF-8,admin,P@ssw0rd,SSH:22,,,,,"ALL,fcsw,linux",,10.12.31.x
+10.12.31.29,t5-fcsw29,Other,UTF-8,admin,P@ssw0rd,SSH:22,,,,,"ALL,fcsw,linux",,10.12.31.x
+10.12.31.80,t5-fcsw80,Other,UTF-8,admin,password1,SSH:22,,,,,"ALL,fcsw,linux",,10.12.31.x
+10.12.31.81,t5-fcsw81,Other,UTF-8,admin,password1,SSH:22,,,,,"ALL,fcsw,linux",,10.12.31.x
+10.12.32.11,资金系统应用01,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.32.x
+10.12.32.12,资金系统应用02,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,10.12.32.x
+10.12.32.13,资金系统ERP接口主机,Other Linux,UTF-8,root,Ds1r#2020,SSH:22,,,,,"ALL,linux",,10.12.32.x
+10.12.32.15,资金系统银行接口主机,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.12.32.x
+10.12.32.15,资金系统银行接口主机,Other Windows,UTF-8,dslr,qwer@1234,RDP:3389,,,,,"ALL,windows",,10.12.32.x
+10.12.32.16,资金系统银行接口备机,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.12.32.x
+10.12.32.16,资金系统银行接口备机,Other Windows,UTF-8,dslr,qwer@1234,RDP:3389,,,,,"ALL,windows",,10.12.32.x
+10.12.32.250,罗斯ERP,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.12.32.x
+10.12.50.13,三云生产数据库,CentOS,UTF-8,root,dslr#2020,SSH:22,,,,,ALL,,Default Network
+10.12.50.13,三云生产数据库,CentOS,UTF-8,sys,rpd#1202,Oracle:1521,reportdb,SERVICENAME,SYSDBA,,ALL,,Default Network
+10.12.50.13,三云生产数据库,CentOS,UTF-8,syadm,syadm2021,Oracle:1521,reportdb,SERVICENAME,Normal,,ALL,,Default Network
+10.13.10.11,单点登录,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.11,单点登录,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.12,丽人三云jump,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.12,丽人三云jump,Other Linux,UTF-8,root,dslr#2020,SFTP:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.13,物流BSM跳转,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.13.11.x
+10.13.10.14,客流分析应用,Other Linux,UTF-8,root,l-m:T*nIZt,SSH:22,,,,,"ALL,linux,客流分析系统",,10.11.10.x
+10.13.10.14,客流分析应用,Other Linux,UTF-8,ljl,dslr#2019,SSH:22,,,,,"ALL,linux,客流分析系统",,10.11.10.x
+10.13.10.14,客流分析应用,Other Linux,UTF-8,root,l-m:T*nIZt,SFTP:22,,,,,"ALL,linux,客流分析系统",,10.11.10.x
+10.13.10.15,零信任网关1,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.16,零信任网关2,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.26,帆软-nginx负载,CentOS,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.13.10.x
+10.13.10.30,OA-phone-loadbalance,CentOS,UTF-8,root,,SSH:22,,,,,ALL,,10.13.10.x
+10.13.11.11,建行前置机,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.13.11.x
+10.13.11.12,中行前置机,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.13.11.x
+10.13.11.13,工行前置机,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.13.11.x
+10.13.11.14,农行前置机,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.13.11.x
+10.13.11.15,前置机,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.13.11.x
+10.15.24.28,sky,Other Windows,UTF-8,administrator,nimda@123,RDP:3389,,,,,"ALL,windows",,Default Network
+10.20.21.11,tj-vm11,Other Linux,UTF-8,root,dslr#2015,SSH:22,,,,,"ALL,esxi,linux",,10.20.21.x
+10.20.21.12,tj-vm12,Other Linux,UTF-8,root,dslr#2015,SSH:22,,,,,"ALL,esxi,linux",,10.20.21.x
+10.20.21.13,tj-vm13,Other Linux,UTF-8,root,dslr#2015,SSH:22,,,,,"ALL,esxi,linux",,10.20.21.x
+10.20.22.11,天津WMS-WCS,Other Linux,UTF-8,root,dgdslr_tj@211,SSH:22,,,,,"ALL,linux,天津WMS,数据库",,10.20.22.x
+10.20.22.11,天津WMS-WCS,Other Linux,UTF-8,SYS,sys_tj211,Oracle:1521,tjdbwcs,SERVICENAME,SYSDBA,,"ALL,linux,天津WMS,数据库",,10.20.22.x
+10.20.22.12,天津WMS-B2B-RF,Other Linux,UTF-8,root,root,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.13,天津WMS-B2B打印,Other Windows,UTF-8,administrator,dslr#2015,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.14,天津WMS-B2B报表,Other Windows,UTF-8,administrator,Ds1r#2020,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.14,天津WMS-B2B报表,Other Windows,UTF-8,dslr,dswl#4PYqCI6q,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.15,天津WMS-B2B-RF备机,Other Linux,UTF-8,root,root,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.16,天津WMS-B2C应用,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.17,天津WMS-B2C打印,Other Windows,UTF-8,administrator,dslr#2015,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.18,天津WMS-B2C-RF,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.19,天津WMS-B2C主库,Other Linux,UTF-8,root,dslr#2020,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.21,天津WMS-B2B主库,Other Linux,UTF-8,root,dgdslr_tj@221,SSH:22,,,,,"ALL,linux,天津WMS,数据库,物流WMS",,10.20.22.x
+10.20.22.21,天津WMS-B2B主库,Other Linux,UTF-8,SYS,sys_tj021,Oracle:1521,SCPRD,SERVICENAME,SYSDBA,,"ALL,linux,天津WMS,数据库,物流WMS",,10.20.22.x
+10.20.22.22,天津WMS-B2B应用,Other Linux,UTF-8,root,root,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.236,天津360管理,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.31,天津域控,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.32,天津文件服务器,Other Windows,UTF-8,dgdslr\administrator,x10i_dslr*.*2013,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.33,TJAD01,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.34,天津ad02,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.35,天津文件服务器,Other Windows,UTF-8,administrator,Dslr#2019,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.35,天津文件服务器,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.20.22.36,天津云打印服务,Aliyun Linux,UTF-8,root,dslr#2022,SSH:22,,,,,"ALL,linux",,10.20.22.x
+10.20.22.80,天津劲霸小程序,Other Windows,UTF-8,administrator,dslr#2021,RDP:3389,,,,,"ALL,windows",,10.20.22.x
+10.30.10.5,北京,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,Default Network
+10.31.0.14,会员系统-oujia品牌,Other Linux,UTF-8,root,mLt%atxap%uRv8QzEnt8,MySQL:3306,,,,,"ALL,linux",,腾讯云
+10.31.0.7,会员系统-oudifen品牌,Other Linux,UTF-8,root,DUGk*YN4VaSZDK60UfJL,MySQL:3306,,,,,"ALL,linux",,腾讯云
+10.31.1.2,丽人会员系统从库,Other,UTF-8,dslr,l0:P?s9o+&,MySQL:3306,,,,,ALL,,腾讯云
+10.60.20.11,西南,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,Default Network
+10.60.20.12,重庆DC,Other Windows,UTF-8,administrator,dslr#2019,RDP:3389,,,,,"ALL,windows",,10.60.20.x
+10.60.20.12,重庆DC,Other Windows,UTF-8,dgdslr\administrator,x10i_dslr*.*2013,RDP:3389,,,,,"ALL,windows",,10.60.20.x
+10.60.20.20,西南,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,Default Network
+10.90.21.10,全策仓数据库（富基）,Other,UTF-8,SYS,sysqcwms$120,Oracle:1521,qcdbwms,SERVICENAME,SYSDBA,,"ALL,数据库",,10.90.21.x
+10.90.22.21,玉泉WMS-B2C-RF备机,Other Linux,UTF-8,root,root#2017,SSH:22,,,,,"ALL,linux",,10.90.22.x
+10.90.22.23,玉泉WMS-B2C打印&报表备机、物流IT-case系统应用和数据库,Other Windows,UTF-8,administrator,dslr#2017,RDP:3389,,,,,"ALL,windows",,10.90.22.x
+10.95.20.10,福民AD域,Other Windows,UTF-8,dgdslr\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.12,福民AD01,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.13,fmad02,Other Windows,UTF-8,cosmolady\administrator,dslr#2020/*-+,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.20,同富WMS-B2B-RF,Other Linux,UTF-8,root,root123,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.21,福民域控,Other,UTF-8,,,,,,,,ALL,,10.95.20.x
+10.95.20.222,Fin_test,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.23,福民WMS-B2C应用主机,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.24,福民WMS-B2C-RF,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.25,福民WMS-B2C打印主机,Other Windows,UTF-8,administrator,dswl#goPpB3Ph,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.29,福民WMS-B2B打印备机,Other Windows,UTF-8,administrator,dslr#2018,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.30,福民WMS-B2B打印主机,Other Windows,UTF-8,administrator,dswl#6H4V08Eb,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.31,福明仓WCS（info）,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux,数据库",,10.95.20.x
+10.95.20.31,福明仓WCS（info）,Other Linux,UTF-8,SYS,sys_fc31,Oracle:1521,fmdbwcs,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.95.20.x
+10.95.20.33,物流mysql,Other Linux,UTF-8,root,Dslr#2018,MySQL:3306,,,,,"ALL,linux,数据库",,10.95.20.x
+10.95.20.34,wms_outside_mongodb,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.35,Wms_outside_app01,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.36,Wms_outside_app02,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.37,同富WMS-B2B打印,Other Windows,UTF-8,administrator,dswl#q0Uxw6HL,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.38,同富WMS-WCS接口,Other,UTF-8,SYS,sys_prd38,Oracle:1521,atdbwcs,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.95.20.x
+10.95.20.40,Fin_app,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.41,物流case系统,Other,UTF-8,SYS,syswl2018,Oracle:1521,dslrwl1,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.95.20.x
+10.95.20.42,物流case,Other Windows,UTF-8,administrator,dslr#2020,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.43,同富WMS-B2B-RF备机,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.44,物流外部tms,Other,UTF-8,SYS,sys123,Oracle:1521,dslrwl1,SERVICENAME,SYSDBA,,"ALL,linux,数据库",,10.95.20.x
+10.95.20.67,奇门接口正式,Other Windows,UTF-8,administrator,Dslr#2020,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.68,奇门测试环境,Other Windows,UTF-8,administrator,Dslr#2020,RDP:3389,,,,,"ALL,windows",,10.95.20.x
+10.95.20.73,同富wcs,Other Linux,UTF-8,root,dslr#2018,SSH:22,,,,,"ALL,linux",,10.95.20.x
+10.95.20.73,同富wcs,Other Linux,UTF-8,tf_wcs,tfwcs1202,Oracle:1521,tfwcs,SERVICENAME,Normal,,"ALL,linux",,10.95.20.x
+10.95.25.14,fm-vm14,Other Linux,UTF-8,root,dslr@fm#2017,SSH:22,,,,,"ALL,esxi,linux",,10.95.25.x
+10.95.25.15,fm-vm15,Other Linux,UTF-8,root,dslr@fm#2017,SSH:22,,,,,"ALL,esxi,linux",,10.95.25.x
+10.95.25.16,fm-vm16,Other Linux,UTF-8,root,dslr@fm#2017,SSH:22,,,,,"ALL,esxi,linux",,10.20.21.x
+106.52.252.185,主机管理,Other Windows,UTF-8,administrator,nc97bWDNraeyuZOJcYUp,RDP:3389,,,,,"ALL,windows",,腾讯云
+172.16.0.10,欧迪芬POS-mq,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.11,欧迪芬POS库,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.11,欧迪芬POS库,Other Linux,UTF-8,odipos_cx,oc2019,Oracle:1521,odipos,SERVICENAME,Normal,,"ALL,linux",,腾讯云
+172.16.0.11,欧迪芬POS库,Other Linux,UTF-8,sys,sys#odipos,Oracle:1521,odipos,SERVICENAME,SYSDBA,,"ALL,linux",,腾讯云
+172.16.0.11,欧迪芬POS库,Other Linux,UTF-8,odipos,odipos_2019,Oracle:1521,odipos,SERVICENAME,Normal,,"ALL,linux",,腾讯云
+172.16.0.11,欧迪芬POS库,Other Linux,UTF-8,hyxt,lrhy0512,Oracle:1521,odipos,SERVICENAME,Normal,,"ALL,linux",,腾讯云
+172.16.0.11,172.16.0.11,Other,UTF-8,,,,,,,,ALL,,172.16.1.x
+172.16.0.13,欧迪芬POS中间库,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.13,欧迪芬POS中间库,Other Linux,UTF-8,sys,sys#odipos,Oracle:1521,odipos,SERVICENAME,Normal,,"ALL,linux",,腾讯云
+172.16.0.13,欧迪芬POS中间库,Other Linux,UTF-8,odipos,odipos_2019,Oracle:1521,odipos,SERVICENAME,Normal,,"ALL,linux",,腾讯云
+172.16.0.14,欧迪芬POS-APP02,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.15,欧迪芬POS-APP01,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.16,欧迪芬POS-DSP,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.17,欧迪芬DSP库,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.45,达摩对接欧迪芬POS,CentOS,UTF-8,root,Dslr#2020,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.48,腾讯云服务器管理,Windows Server 2012,UTF-8,administrator,c70c177423d7,RDP:12350,,,,,ALL,,Default Network
+172.16.0.48,腾讯云服务器管理,Windows Server 2012,UTF-8,904213,Nimda@002319615,RDP:12350,,,,,ALL,,Default Network
+172.16.0.5,欧迪芬POS-redis,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.0.9,欧迪芬POS-web,Other Linux,UTF-8,root,Dslr#2019,SSH:22,,,,,"ALL,linux",,腾讯云
+172.16.1.202,HQ-AD,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,172.16.1.x
+172.16.1.22,HQ-FW-1000C,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,172.16.1.x
+172.16.1.22,HQ-FW-1000C,Other,UTF-8,admin,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,172.16.1.x
+172.16.16.11,储值卡-APP02,Other,UTF-8,,,,,,,,ALL,,腾讯云
+172.16.16.16,储值卡-数据库,Other,UTF-8,,,,,,,,ALL,,腾讯云
+172.16.16.8,储值卡-APP01,Other,UTF-8,,,,,,,,ALL,,腾讯云
+192.168.2.168,vault,Other Windows,UTF-8,administrator,Dslr@1017,RDP:3389,,,,,"ALL,windows",,192.168.8.x
+192.168.210.254,HQ-WR-ZD3000,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.210.x
+192.168.210.254,HQ-WR-ZD3000,Other,UTF-8,admin,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.210.x
+192.168.219.2,win7_64,Other Windows,UTF-8,yanghz,twgdh168,RDP:3389,,,,,ALL,,192.168.210.x
+192.168.254.1,HQ-NO6-2F_Rm2-DS5700,Other,UTF-8,admin,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.17,HQ-NO6-2F_Rm1-DS5700,Other,UTF-8,admin,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.18,HQ-NO6-2F_Rm1-AS1700-01,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.19,HQ-NO6-2F_Rm1-AS1700-02,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.2,HQ-NO6-2F_Rm2-AS1700-01,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.20,HQ-NO6-2F_Rm1-AS1700-03,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.21,HQ-NO6-2F_Rm1-AS1700-04,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.3,HQ-NO6-2F_Rm2-AS1700-02,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.4,HQ-NO6-2F_Rm2-AS1700-03,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.5,HQ-NO6-2F_Rm2-AS1700-04,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.6,HQ-NO6-2F_Rm2-AS1700-05,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.7,HQ-NO6-2F_Rm2-AS1700-06,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.8,HQ-NO6-2F_Rm2-AS1700-07,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.254.9,HQ-NO6-2F_Rm2-AS1700-08,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.254.x
+192.168.255.1,DSLR-HQ-CS4507-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.10,HQ-VSAN_SW-AS3850-03,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.11,DSLR-HQ-AS2918-NO1_1F-01,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.12,DSLR-HQ-AS3560X-NO1_2F-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.13,DSLR-HQ-DS3560-NO1_2F-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.14,HQ-Core_Server-AS2960X-03,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.2,DSLR-HQ-Common_Server-AS3560X-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.205,DSLR-HQ-AS2960G-SXL-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.21,DSLR-HQ-NO1-1F-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.22,DSLR-HQ-NO1-2F-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.23,DSLR-HQ-NO6-1F-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.24,DSLR-HQ-NO6-2F-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.240,网康SMC管理平台,Other,UTF-8,admin,dslr*.*fw.network,,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.241,NI5000-30,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.25,HQ-NO6-2F_Rm1-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.26,HQ-NO6-2F_Rm2-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.27,HQ-NO6-1F-AS2960S-02,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.28,HQ-NO6-3F-AS2960S-01-POE,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.29,HQ-NO6-3F-AS1700-01,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.3,DSLR-HQ-Test_Server-AS3560X-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.30,HQ-NO6-3F-AS1700-02,Other,UTF-8,admin,2018_dslr.,,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.31,DSLR-HQ-NO1-2F-AS2960X-02,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.32,DSLR-HQ-NO1-2F-AS2960X-03,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.33,DSLR-HQ-NO6-1F_Rm3-AS2960P-01,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.34,HQ-6#1f-ChenHuiShi-AS2960X,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.36,DSLR-HQ-NO6-3F-AS2960S-DHH,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.37,DSLR-HQ-NO1-2F-AS2960S-07,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.38,HQ-NO1-2F-Server-01,Other,UTF-8,dslr,2018_dslr.,TELNET:23,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.39,DSLR-HQ-NO6-2FDS-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.4,GP_Serv-AS2960S-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.40,DSLR-HQ-NO6-2FDS-AS2960S-02,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.41,DSLR-HQ-NO6-2FDS-AS2960S-03,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.5,GP_Serv-AS2960S-02,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.6,HQ-Core_Server-AS2960X-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.7,HQ-Core_Server-AS2960X-02,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.8,HQ-VSAN_SW-AS3850-01,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.255.9,HQ-VSAN_SW-AS3850-02,Other,UTF-8,dslr,2018_dslr.,SSH:22,,,,,"ALL,网络设备",,192.168.255.x
+192.168.29.241,DSLR-HQ-2#-ap01,Other,UTF-8,admin,root2012,,,,,,"ALL,网络设备",,192.168.29.x
+192.168.29.241,DSLR-HQ-2#-ap01,Other,UTF-8,admin,root2012,TELNET:23,,,,,"ALL,网络设备",,192.168.29.x
+192.168.29.242,DSLR-HQ-2#-ap02,Other,UTF-8,admin,root2012,,,,,,"ALL,网络设备",,192.168.29.x
+192.168.29.242,DSLR-HQ-2#-ap02,Other,UTF-8,admin,root2012,TELNET:23,,,,,"ALL,网络设备",,192.168.29.x
+192.168.29.243,DSLR-HQ-2#-ap03,Other,UTF-8,admin,root2012,,,,,,"ALL,网络设备",,192.168.29.x
+192.168.29.243,DSLR-HQ-2#-ap03,Other,UTF-8,admin,root2012,TELNET:23,,,,,"ALL,网络设备",,192.168.29.x
+192.168.8.201,DSLR-HQ-WR-IAP93-01,Other Linux,UTF-8,root,admin,,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.201,DSLR-HQ-WR-IAP93-01,Other Linux,UTF-8,root,admin,TELNET:23,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.202,DSLR-HQ-WR-IAP93-02,Other Linux,UTF-8,root,admin,,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.202,DSLR-HQ-WR-IAP93-02,Other Linux,UTF-8,root,admin,TELNET:23,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.203,DSLR-HQ-WR-IAP93-03,Other Linux,UTF-8,root,admin,,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.203,DSLR-HQ-WR-IAP93-03,Other Linux,UTF-8,root,admin,TELNET:23,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.204,DSLR-HQ-WR-IAP93-04,Other Linux,UTF-8,root,admin,,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.204,DSLR-HQ-WR-IAP93-04,Other Linux,UTF-8,root,admin,TELNET:23,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.205,DSLR-HQ-WR-IAP93-05,Other Linux,UTF-8,root,admin,,,,,,"ALL,linux,网络设备",,192.168.8.x
+192.168.8.205,DSLR-HQ-WR-IAP93-05,Other Linux,UTF-8,root,admin,TELNET:23,,,,,"ALL,linux,网络设备",,192.168.8.x
+8.135.100.144,PLM&SCM,Windows Server 2012,UTF-8,administrator,Dslr#plm$2020,RDP:3389,,,,,ALL,,Default Network

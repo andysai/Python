@@ -1,0 +1,51 @@
+('D:\\python\\DSLR\\模拟登录禅道系统\\build\\登录禅道\\登录禅道.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0,
+  'SPLASH': 1},
+ [('PYZ-00.pyz', 'D:\\python\\DSLR\\模拟登录禅道系统\\build\\登录禅道\\PYZ-00.pyz', 'PYZ'),
+  ('struct', 'D:\\Program Files\\Python37\\lib\\struct.pyo', 'PYMODULE'),
+  ('pyimod01_os_path',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyimod04_ctypes',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\loader\\pyimod04_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_subprocess',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\Program '
+   'Files\\Python37\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('登录禅道', 'D:\\python\\DSLR\\模拟登录禅道系统\\登录禅道.py', 'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
