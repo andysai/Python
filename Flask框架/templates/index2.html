@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+hello world
+<br>
+{{ data }}
+<br>
+{{ data['name'] }}
+<br>
+{{ data.name }}
+<br>
+mylist: {{ data.mylist }}
+<br>
+mylist列表: {{ data.mylist | li2 }}
+<br>
+mylist: {{ data.mylist[1] }}
+<br>
+count:{{ data.mylist[1] + data.mylist[2] }}
+<br>
+{{ 'hello_world' | upper }}
+<br>
+{{ 'hello_world' | replace('hello', 'hi') }}
+</body>
+</html>
